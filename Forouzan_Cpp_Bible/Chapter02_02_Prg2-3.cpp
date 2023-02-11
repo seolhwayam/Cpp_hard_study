@@ -31,6 +31,8 @@ int main()
     cout<<"반지름 길이 :";
     cin >>radius;
     int perimeter = 2 * PI * radius;
+    // 2 > 리터럴 / PI > 상수
+
     cout << "원의 지름 :";
     cout << perimeter;
     return 0;
