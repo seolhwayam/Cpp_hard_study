@@ -5,6 +5,8 @@
 using namespace std;
 
 int main(){
+    // char 자료형의 변수를 선언하고 초기화하는 프로그램
+
     // char 자료형의 변수 선언과 초기화
     char first = 'A';
     char second = 65;
@@ -16,4 +18,5 @@ int main(){
     cout << "third의 값: "<<third <<endl;
     cout << "fourth의 값: "<<fourth;
     return 0;
+
 }
