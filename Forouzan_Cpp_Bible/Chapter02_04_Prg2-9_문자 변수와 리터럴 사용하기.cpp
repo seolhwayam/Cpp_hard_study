@@ -19,4 +19,12 @@ int main(){
     cout << "fourth의 값: "<<fourth;
     return 0;
 
+    /*[문자 자료형]
+     * 문자 변수(char)
+     *
+     * 문자 리터럴
+     * 1. ASCII테이블 정의된 글자  ' ' 사용 (문자 + ' ')
+     * 2. ASCII테이블 정의된 정수 값
+     * */
+
 }
