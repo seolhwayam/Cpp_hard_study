@@ -87,7 +87,7 @@ int main(){
     cout << "---------------------------"<<endl;
 
     // 프로그래밍 문제 07  : 사용자로부터 성과 이름을 입력받은 뒤, 다음과 같이 서양식 이름 표현으로 성과 이름을 출력하는 프로그램(ex설화, 김)
-    cout << "♥ 정사각형 면적과 둘레 출력 프로그램 ♥ "<<endl;
+    cout << "♥ 서양식이름 표현 출력 프로그램 ♥ "<<endl;
 
     // 변수 선언
     string name;
@@ -123,7 +123,7 @@ int main(){
     // 프로그래밍 문제 09  : 소비세가9%라고 가정하고, 판매 금액이 주어졌을 떄, 다음과 같이 출력하는 프로그램(소비세는 상수로 정의)
     // 판매금액 / 소비세 / 전체금액
 
-    cout << "♥ 2개 정수 받아서 합계 출력 프로그램 ♥ "<<endl;
+    cout << "♥ 판매금액/소비세/전체금액 출력 프로그램 ♥ "<<endl;
 
     // 변수 선언
     const double Tax = 0.09;
@@ -144,6 +144,29 @@ int main(){
     // 프로그래밍 문제 10  : 주어진 시/도 이름, 구 이름, 도로이름, 도로번호 , 우편번호를 다음과 같은 형식으로 출력하는 프로그램
     //(서울시, 강서구, 마곡서로, 133, 07798)
     cout << "♥ 시.도, 구, 도로, 우편번호 출력 프로그램 ♥ "<<endl;
+
+    // 변수 선언
+    string city;
+    string town;
+    string road;
+    string road_number;
+    string zip_coad;
+
+    //입력받기
+    cout << " 시/도 : " <<endl;
+    cin >> city;
+    cout << " 구 : " <<endl;
+    cin >> town;
+    cout << " 도로이름 : " <<endl;
+    cin >> road;
+    cout << " 도로번호 : " <<endl;
+    cin >> road_number;
+    cout << " 우편번호 : " <<endl;
+    cin >> zip_coad;
+
+    cout << "("<<city<<", "<<town<<", "<<road<< ", " <<road_number << ", "<< zip_coad<<")";
+
+
 
 
 
