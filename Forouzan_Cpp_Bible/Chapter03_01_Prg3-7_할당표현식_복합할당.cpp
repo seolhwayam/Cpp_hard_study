@@ -24,6 +24,23 @@ int main(){
     //결과
     cout << "x의 값 : "<<x<<endl;
     cout << "y의 값 : "<<y<<endl;
+    cout << "z의 값 : "<<z<<endl;
+    cout << "t의 값 : "<<t<<endl;
+    cout << "u의 값 : "<<u<<endl;
+
+    return 0;
+
+    /* 2) 복합 할당
+     *   : ① 연산자는 2개 사용
+     *     ② 특별 연산자 제공( += | -= | *= | /= | %= )
+     *
+     *  - lvalue & rvalue
+     *    lvalue(값의 목적지) = rvalue(값의 소스)
+     *
+     *    (x += 3) == (x = x+3)
+     *                x가 왼쪽, 오른쪽 모두 있음
+     *
+     *     >> 값의 목적지이자 소스로 동작 >> lvalue이자 rvalue
+     *   */
+
 }
-
-
