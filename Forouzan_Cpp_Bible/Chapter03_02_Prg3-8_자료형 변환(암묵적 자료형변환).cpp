@@ -2,6 +2,7 @@
 // Created by rudnf on 2023-02-19.
 //
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 int main(){
