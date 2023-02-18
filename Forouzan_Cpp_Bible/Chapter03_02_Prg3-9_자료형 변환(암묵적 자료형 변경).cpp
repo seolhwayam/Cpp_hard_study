@@ -2,13 +2,72 @@
 // Created by rudnf on 2023-02-19.
 //
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 int main(){
-    /*ì•”ë¬µì  ìžë£Œí˜• ë³€í™˜(ë¶€ê°€ ìž‘ìš© ì—†ìŒ)
-     * -ë¶€ê°€ìž‘ìš©ì´ ì—†ëŠ” ì—¬ëŸ¬ê°€ì§€ ìžë£Œí˜•ì´ ì‚¬ìš©ëœ
-     * -í‘œí˜„ì‹ì˜ ì•”ë¬µì  ìžë£Œí˜• ë³€í™˜
+    /*¾Ï¹¬Àû ÀÚ·áÇü º¯È¯(ºÎ°¡ ÀÛ¿ë ¾øÀ½)
+     * -ºÎ°¡ÀÛ¿ëÀÌ ¾ø´Â ¿©·¯°¡Áö ÀÚ·áÇüÀÌ »ç¿ëµÈ
+     * -Ç¥Çö½ÄÀÇ ¾Ï¹¬Àû ÀÚ·áÇü º¯È¯
      * */
+
+    //¼±¾ð
+    int x =123;
+    long y = 140;
+    double z = 114.56;
+
+    //Ç¥Çö½Ä x + y ÀÇ ÀÚ·áÇü°ú °ª È®ÀÎ
+    cout << "x + yÀÇ ÀÚ·áÇü : "<< typeid(x+y).name()<<endl;
+    cout << "x + yÀÇ °ª : "<<x+y<<endl;
+
+    //Ç¥Çö½Ä x + y + zÀÇ ÀÚ·áÇü°ú °ª È®ÀÎ
+    cout << "x + y +zÀÇ ÀÚ·áÇü : "<< typeid(x+y+z).name()<<endl;
+    cout << "x + y +zÀÇ °ª : "<<x+y+z<<endl;
+
+    /* ÀÚ·áÇü º¯È¯
+    * 1. ¾Ï¹¬Àû ÀÚ·áÇü º¯È¯(ÀÚµ¿)
+    *  : ÀÚ·áÇüÀÌ ÀÚµ¿À¸·Î º¯È¯µÇ´Â °Í
+    *
+    *  ÀÚ·áÇü È®ÀÎ
+    *  #include <typeinfo>
+    *  typeid(Ç¥Çö½Ä).name()
+    *
+    *  ³·Àº´Ü°è                                             ³ôÀº´Ü°è
+    *  int > unsigned > long > unsigned long > double > long double
+    *
+    *  1) ¾Ï¹¬Àû ÀÚ·áÇü ½Â°Ý
+    *     : ÀÛÀº ÀÚ·áÇüÀÇ ÇÇ¿¬»êÀÚ¸¦ ´õ Å« ÀÚ·áÇüÀ¸·Î ½Â°Ý
+    *       ¨ç ÇÇ¿¬»êÀÚÀÇ ÀÚ·áÇüÀÌ »ê¼ú ¿¬»ê¿¡ ÀûÇÕÇÏÁö ¾Ê´Â °æ¿ì(ºÒ ¶Ç´Â ¹®ÀÚ)
+    *       ¨è ÇÇ¿¬»êÀÚÀÇ ÀÚ·áÇü¿¡ ¸ÂÀº ¿¬»êÀÚ°¡ ¾ø´Â °æ¿ì(short ¶Ç´Â float)
+     *
+     *
+    *       <¾Ï¹¬Àû ÀÚ·áÇü ½Â°Ý>
+    *         ¿ø·¡ ÀÚ·áÇü         ½Â°ÝµÈ ÀÚ·áÇü
+    *         bool                 int
+    *         char                 int
+    *         short                int
+    *         unsigned short       unsigned int
+    *         float                double
+    *
+    *        bool, char , short ÀÚ·áÇü >> int
+    *        float ÀÚ·áÇü >> double
+    *
+    *
+    *
+    *  2) ¾Ï¹¬Àû ÀÚ·áÇü º¯°æ
+    *     : µÎ ÀÚ·áÇüÀÇ ÀÚ·áÇüÀ» ¸ÂÃß´Â ÇàÀ§
+     *     ¡Ø ´ÜÇ× ¿¬»êÀÇ °æ¿ì ¾Ï¹¬Àû ÀÚ·áÇü º¯°æ x
+     *
+     *     - ºÎ°¡ÀÛ¿ëÀÌ ¾ø´Â Ç¥Çö½Ä
+     *     : ¾Ï¹¬Àû ÀÚ·áÇü ½Â°ÝÀÌ ÀÌ¹Ì ÀÏ¾î³­ °æ¿ì
+     *       °èÃþÀÌ º¯È¯µÈ »óÅÂ ÀÌ¹Ç·Î ¾Ï¹¬Àû ÀÚ·áÇü º¯°æ x
+     *
+    * */
+
+
+
+
+
 
 
 
