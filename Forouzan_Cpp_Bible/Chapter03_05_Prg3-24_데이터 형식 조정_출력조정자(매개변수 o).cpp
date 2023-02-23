@@ -13,7 +13,7 @@ int main(){
     double x = 1237234.1235;
 
     //기본 출력 방식 조정
-    cout << fixed << setprecision(2)<<showpos<<setfill('*');
+    cout << fixed << setprecision(2)<<showpos<<setfill('*');   //showpos 양수부호 조정자
 
     //x를 3가지 형식으로 출력
     cout << setw(15) <<left<<x<<endl;
@@ -39,5 +39,12 @@ int main(){
      *      - (n)으로 소수점 뒤 몇 자리까지 출력할지 지정
      *      - 고정 소수점 출력 방식에서만 사용
      *
+     *    ② setw(n)
+     *      - (n) 전체 필드 크기 (정수부분 + 소수점 + 소수점 아래부분)
+     *      - 고정 소수점 출력 방식
+     *      - 출력 스트림의 상태를 변경 x >> 필요할때마다 사용
+     *
+     *    ③ setfill(ch)
+     *      - 필드 크키가 실제 출력보다 클 때, 패딩을 어떤 문자로 채울지 지정
      */
 }
