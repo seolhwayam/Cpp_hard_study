@@ -20,4 +20,24 @@ int main(){
     cout << setw(15) << internal <<x <<endl;
     cout << setw(15)<<right <<x;
     return 0;
+
+    /*조정자의 개요
+     * :상황에 따라서 입출력 형식을 바꿔서 출력할 때 사용
+     *
+     * 1. 출력 조정자
+     *  2) 매개변수가 있는 조정자
+     *   - 매개변수가 하나(정수 또는 문자)인 조정자만 가능
+     *   - 추가 헤더파일 필요 | <iomanip>
+     *
+     *   <매개변수가 하나인 조정자>
+     *      조정자              불     문자    정수   부동 소수점
+     *   setprecision(n)                              o
+     *   setw(n)               o      o       o       o
+     *   setfill(ch)           o      o       o       o
+     *
+     *    ① setprecision(n)
+     *      - (n)으로 소수점 뒤 몇 자리까지 출력할지 지정
+     *      - 고정 소수점 출력 방식에서만 사용
+     *
+     */
 }
