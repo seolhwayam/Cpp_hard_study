@@ -69,7 +69,7 @@ int main(){
      *        boolalpha   > false  true  출력
      *
      *   ③ 숫자 진법을 변경하는 조정자(정수)
-     *      : 10진접(dec) | 8진법(oct) | 16진법(hex)
+     *      : 10진법(dec) | 8진법(oct) | 16진법(hex)
      *
      *   ④ 진법의 접두사를 붙이는 조정자
      *      : noshowbase > 기본값
