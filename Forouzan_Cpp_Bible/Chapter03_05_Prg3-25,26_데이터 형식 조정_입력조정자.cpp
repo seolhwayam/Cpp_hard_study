@@ -47,6 +47,8 @@ int main(){
      *      noboolalpha >    0    1    입력
      *      boolalpha   > false  true  입력
      *
+     *   ② 진수 입력 조정자
+     *      : 10진수(기본) | 8진수(oct) | 16진수(hex)
      *
      * /
 
