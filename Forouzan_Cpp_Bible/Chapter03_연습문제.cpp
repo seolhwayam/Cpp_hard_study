@@ -19,8 +19,28 @@ int main(){
      cout << "unsigned int 최댓값 : "<<numsigned_int_max <<"|unsigned int 최소값 : " <<numsigned_int_min<<endl;
 
     // 02 long자료형과 longlong 자료형의 최대값과 최소값을 찾는 프로그램
+    cout << "02 long자료형과 longlong 자료형의 최대값과 최소값을 찾는 프로그램 " <<endl;
+
+    long long_num_max = numeric_limits<long>::max();
+    long long_num_min = numeric_limits<long>::min();
+    cout << "long 최댓값 : "<< long_num_max << "| long 최소값 : "<<long_num_min<<endl;
+
+    long long longlong_max = numeric_limits<long long>::max();
+    long long longlong_min = numeric_limits<long long>::min();
+    cout << "longlong int 최댓값 : "<<longlong_max <<"|longlong 최소값 : " <<longlong_min<<endl;
+
 
     // 03 float자료형과 double 자료형의 최대값과 최소값을 찾는 프로그램
+    cout << "03 float자료형과 double 자료형의 최대값과 최소값을 찾는 프로그램 " <<endl;
+
+    float float_max = numeric_limits<float>::max();
+    float float_min = numeric_limits<float>::min();
+    cout << "float int 최댓값 : "<<float_max <<"|float 최소값 : " <<float_min<<endl;
+
+    double double_max = numeric_limits<double>::max();
+    double double_min = numeric_limits<double>::min();
+    cout << "double 최댓값 : "<<double_max <<"|double 최소값 : " <<double_min<<endl;
+
 
     // 04 int 자료형의 정수를 입력받아서, 두 번째 자릿수를 추출한 뒤 출력하는 프로그램
 
