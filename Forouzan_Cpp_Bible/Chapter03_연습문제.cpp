@@ -3,38 +3,48 @@
 //
 #include <iostream>
 #include <iomanip>
+#include <limits>
 using namespace std;
 
 int main(){
-    // 01 short ìžë£Œí˜•ê³¼ unsigned int ìžë£Œí˜•ì˜ ìµœëŒ€ê°’ê³¼ ìµœì†Œê°’ì„ ì°¾ëŠ” í”„ë¡œê·¸ëž¨
+    // 01 short ÀÚ·áÇü°ú unsigned int ÀÚ·áÇüÀÇ ÃÖ´ë°ª°ú ÃÖ¼Ò°ªÀ» Ã£´Â ÇÁ·Î±×·¥
+     cout << "01 short ÀÚ·áÇü°ú unsigned int ÀÚ·áÇüÀÇ ÃÖ´ë°ª°ú ÃÖ¼Ò°ªÀ» Ã£´Â ÇÁ·Î±×·¥ " <<endl;
 
-    // 02 longìžë£Œí˜•ê³¼ longlong ìžë£Œí˜•ì˜ ìµœëŒ€ê°’ê³¼ ìµœì†Œê°’ì„ ì°¾ëŠ” í”„ë¡œê·¸ëž¨
+     short short_num_max = numeric_limits<short>::max();
+     short short_num_min = numeric_limits<short>::min();
+     cout << "short ÃÖ´ñ°ª : "<< short_num_max << "| short ÃÖ¼Ò°ª : "<<short_num_min<<endl;
 
-    // 03 floatìžë£Œí˜•ê³¼ double ìžë£Œí˜•ì˜ ìµœëŒ€ê°’ê³¼ ìµœì†Œê°’ì„ ì°¾ëŠ” í”„ë¡œê·¸ëž¨
+     unsigned int numsigned_int_max = numeric_limits<unsigned int>::max();
+     unsigned int numsigned_int_min = numeric_limits<unsigned int>::min();
+     cout << "unsigned int ÃÖ´ñ°ª : "<<numsigned_int_max <<"|unsigned int ÃÖ¼Ò°ª : " <<numsigned_int_min<<endl;
 
-    // 04 int ìžë£Œí˜•ì˜ ì •ìˆ˜ë¥¼ ìž…ë ¥ë°›ì•„ì„œ, ë‘ ë²ˆì§¸ ìžë¦¿ìˆ˜ë¥¼ ì¶”ì¶œí•œ ë’¤ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 02 longÀÚ·áÇü°ú longlong ÀÚ·áÇüÀÇ ÃÖ´ë°ª°ú ÃÖ¼Ò°ªÀ» Ã£´Â ÇÁ·Î±×·¥
 
-    // 05 intìžë£Œí˜•ì˜ ìž…ë ¥ë°›ì•„ì„œ, ì²« ë²ˆì§¸ë¶€í„° ì„¸ ë²ˆì§¸ ìžë¦¿ìˆ˜ë¥¼ ê°ê° ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 03 floatÀÚ·áÇü°ú double ÀÚ·áÇüÀÇ ÃÖ´ë°ª°ú ÃÖ¼Ò°ªÀ» Ã£´Â ÇÁ·Î±×·¥
 
-    // 06 ì„¸ ìžë¦´ìˆ˜ì˜ ì •ìˆ˜ê°€ ì£¼ì–´ì¡Œì„ ë–„, í•´ë‹¹ ìˆ«ìžë¥¼ ì—­ìˆœìœ¼ë¡œ í•˜ëŠ” ì •ìˆ˜ë¥¼ êµ¬ì„±í•˜ê³  ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨(ex 372 >> 273)
+    // 04 int ÀÚ·áÇüÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Þ¾Æ¼­, µÎ ¹øÂ° ÀÚ¸´¼ö¸¦ ÃßÃâÇÑ µÚ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
 
-    // 07 ì‹œê°„ì„ ìž…ë ¥ìœ¼ë¡œ ë°›ì•˜ì„ ë•Œ, ì´ë¥¼ ì£¼,ì¼(0~6ì¼ ì‚¬ì´ì˜ ê°’),ì‹œê°„(0~23ì‹œ ì‚¬ì´ì˜ ê°’)ìœ¼ë¡œ ë³€í™˜í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 05 intÀÚ·áÇüÀÇ ÀÔ·Â¹Þ¾Æ¼­, Ã¹ ¹øÂ°ºÎÅÍ ¼¼ ¹øÂ° ÀÚ¸´¼ö¸¦ °¢°¢ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
 
-    // 08 ì‹œê°„ì„ ì‹œ,ë¶„,ì´ˆ ë‹¨ìœ„ë¡œ ìž…ë ¥ë°›ì•˜ì„ ë•Œ, ì´ë¥¼ ì´ˆ ë‹¨ìœ„ë¡œ ë³€í™˜í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 06 ¼¼ ÀÚ¸±¼öÀÇ Á¤¼ö°¡ ÁÖ¾îÁ³À» ‹š, ÇØ´ç ¼ýÀÚ¸¦ ¿ª¼øÀ¸·Î ÇÏ´Â Á¤¼ö¸¦ ±¸¼ºÇÏ°í Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥(ex 372 >> 273)
 
-    // 09 ì´ˆ ë‹¨ìœ„(long ìžë£Œí˜•)ë¥¼ ìž…ë ¥ë°›ì•˜ì„ ë•Œ, ì´ë¥¼ ì‹œ,ë¶„,ì´ˆ ë‹¨ìœ„ë¡œ ë³€í™˜í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 07 ½Ã°£À» ÀÔ·ÂÀ¸·Î ¹Þ¾ÒÀ» ¶§, ÀÌ¸¦ ÁÖ,ÀÏ(0~6ÀÏ »çÀÌÀÇ °ª),½Ã°£(0~23½Ã »çÀÌÀÇ °ª)À¸·Î º¯È¯ÇÏ´Â ÇÁ·Î±×·¥
 
-    // 10 4ê°œì˜ ì ìˆ˜(int ìžë£Œí˜•)ë¥¼ ìž…ë ¥ë°›ê³ , ì´ë¥¼ ê¸°ë°˜ìœ¼ë¡œ í‰ê·  ì ìˆ˜(double ìžë£Œí˜•)ë¥¼ ì°¾ì•„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 08 ½Ã°£À» ½Ã,ºÐ,ÃÊ ´ÜÀ§·Î ÀÔ·Â¹Þ¾ÒÀ» ¶§, ÀÌ¸¦ ÃÊ ´ÜÀ§·Î º¯È¯ÇÏ´Â ÇÁ·Î±×·¥
 
-    // 11 ì£¼ì–´ì§„ ì„­ì”¨ ì˜¨ë„(Celsius)ë¥¼ í™”ì”¨ ì˜¨ë„(Fahrenheit)ë¡œ ë³€í™˜í•´ì„œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ ( ì„­ì”¨ì˜¨ë„ë¥¼ í™”ì”¨ì˜¨ë„ë¡œ ë³€í™˜í•˜ëŠ” ê³µì‹ F = (9/5)C +32)
+    // 09 ÃÊ ´ÜÀ§(long ÀÚ·áÇü)¸¦ ÀÔ·Â¹Þ¾ÒÀ» ¶§, ÀÌ¸¦ ½Ã,ºÐ,ÃÊ ´ÜÀ§·Î º¯È¯ÇÏ´Â ÇÁ·Î±×·¥
 
-    // 12 ì£¼ì–´ì§„ í™”ì”¨ ì˜¨ë„(Fahrenheit)ë¥¼ ì„­ì”¨ ì˜¨ë„(Celsius)ë¡œ ë³€í™˜í•´ì„œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ ( í™”ì”¨ì˜¨ë„ë¥¼ ì„­ì”¨ì˜¨ë„ë¡œ ë³€í™˜í•˜ëŠ” ê³µì‹ C = (F-32)*5/9)
+    // 10 4°³ÀÇ Á¡¼ö(int ÀÚ·áÇü)¸¦ ÀÔ·Â¹Þ°í, ÀÌ¸¦ ±â¹ÝÀ¸·Î Æò±Õ Á¡¼ö(double ÀÚ·áÇü)¸¦ Ã£¾Æ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
 
-    // 13 ì•„ë¥´ë°”ì´íŠ¸ë¡œ ì¼ì£¼ì¼ì— ê¸°ë³¸ 40ì‹œê°„ì„ ì¼í•œë‹¤ê³  ê°€ì •í•©ë‹ˆë‹¤.ê·¸ë¦¬ê³  40ì‹œê°„ì„ ë„˜ê²¨ ì¼ì„ í•˜ëŠ” ê²½ìš°, ë„˜ëŠ” ì‹œê¸‰ì€ 60%ì¶”ê°€ë¡œ ì§€ê¸‰ë©ë‹ˆë‹¤.
-    //    ì¼ì£¼ì¼ì˜ ê¸°ë³¸ ê¸‰ì—¬ì™€ ì¶”ê°€ë¡œ ì¼í•œ ì‹œê°„ì„ ìž…ë ¥í–ˆì„ ë•Œ, ì „ì²´ ê¸‰ì—¬ë¥¼ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 11 ÁÖ¾îÁø ¼·¾¾ ¿Âµµ(Celsius)¸¦ È­¾¾ ¿Âµµ(Fahrenheit)·Î º¯È¯ÇØ¼­ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥ ( ¼·¾¾¿Âµµ¸¦ È­¾¾¿Âµµ·Î º¯È¯ÇÏ´Â °ø½Ä F = (9/5)C +32)
 
-    // 14 1,400ë‹¬ëŸ¬ì˜ í…”ë ˆë¹„ì „, 220ë‹¬ëŸ¬ì˜ DVDí”Œë ˆì´ì–´, 35.20ë‹¬ëŸ¬ì˜ ë¦¬ëª¨ì»¨ 3ê°€ì§€ ì œí’ˆì„ íŒë§¤í•˜ëŠ” íšŒì‚¬ê°€ ìžˆìŠµë‹ˆë‹¤.
-    //    ê³ ê°ì´ êµ¬ìž…í•œ ìž¥ë¹„ì˜ ìˆ˜ë¥¼ ìž…ë ¥ìœ¼ë¡œ ë°›ëŠ”ë‹¤ê³  í•  ë•Œ, 8.25%ì˜ ì†Œë¹„ì„¸ê°€ ì¶”ê°€ëœ ì „ì²´ ë¹„ìš©ì„ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ëž¨
+    // 12 ÁÖ¾îÁø È­¾¾ ¿Âµµ(Fahrenheit)¸¦ ¼·¾¾ ¿Âµµ(Celsius)·Î º¯È¯ÇØ¼­ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥ ( È­¾¾¿Âµµ¸¦ ¼·¾¾¿Âµµ·Î º¯È¯ÇÏ´Â °ø½Ä C = (F-32)*5/9)
+
+    // 13 ¾Æ¸£¹ÙÀÌÆ®·Î ÀÏÁÖÀÏ¿¡ ±âº» 40½Ã°£À» ÀÏÇÑ´Ù°í °¡Á¤ÇÕ´Ï´Ù.±×¸®°í 40½Ã°£À» ³Ñ°Ü ÀÏÀ» ÇÏ´Â °æ¿ì, ³Ñ´Â ½Ã±ÞÀº 60%Ãß°¡·Î Áö±ÞµË´Ï´Ù.
+    //    ÀÏÁÖÀÏÀÇ ±âº» ±Þ¿©¿Í Ãß°¡·Î ÀÏÇÑ ½Ã°£À» ÀÔ·ÂÇßÀ» ¶§, ÀüÃ¼ ±Þ¿©¸¦ ±¸ÇÏ´Â ÇÁ·Î±×·¥
+
+    // 14 1,400´Þ·¯ÀÇ ÅÚ·¹ºñÀü, 220´Þ·¯ÀÇ DVDÇÃ·¹ÀÌ¾î, 35.20´Þ·¯ÀÇ ¸®¸ðÄÁ 3°¡Áö Á¦Ç°À» ÆÇ¸ÅÇÏ´Â È¸»ç°¡ ÀÖ½À´Ï´Ù.
+    //    °í°´ÀÌ ±¸ÀÔÇÑ ÀåºñÀÇ ¼ö¸¦ ÀÔ·ÂÀ¸·Î ¹Þ´Â´Ù°í ÇÒ ¶§, 8.25%ÀÇ ¼Òºñ¼¼°¡ Ãß°¡µÈ ÀüÃ¼ ºñ¿ëÀ» °è»êÇÏ´Â ÇÁ·Î±×·¥
 
 
 
