@@ -43,9 +43,34 @@ int main(){
     }
 
     //결과 출력
-    cout <<"더 큰 숫자 = "<<larger;
+    cout <<"더 큰 숫자 = "<<larger<<endl;
 
-    /**/
+    /*두 숫자의 관계찾기
+     * : 입력받은 두 숫자가 왼쪽이 더 큰지, 같은지, 더 작은지 출력하는 프로그램*/
+
+    // 변수선언
+    int number1,number2;
+
+    // 입력받기
+    cout << "첫 번째 숫자 입력 : ";
+    cin >> number1;
+    cout << "두 번째 숫자 입력 : ";
+    cin >> number2;
+
+    //if-else 조건문을 중첩해서 의사 결정
+    if(number1>= number2){
+        if(number1>number2){
+            cout << number1 << ">"<<number2;
+        }else{
+            cout << number1 <<"=="<<number2;
+        }
+
+    }else{
+        cout << number1 << "<" <<number2;
+    }
+
+    /* 점수를 기반으로 학점 구하기
+     *  : 여러 방향 조건 분기를 사용해서 학점을 구하는 프로그램*/
 
 
     return 0;
