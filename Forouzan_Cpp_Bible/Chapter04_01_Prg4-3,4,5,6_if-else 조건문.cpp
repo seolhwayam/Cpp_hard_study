@@ -60,17 +60,55 @@ int main(){
     //if-else 조건문을 중첩해서 의사 결정
     if(number1>= number2){
         if(number1>number2){
-            cout << number1 << ">"<<number2;
+            cout << number1 << ">"<<number2<<endl;
         }else{
-            cout << number1 <<"=="<<number2;
+            cout << number1 <<"=="<<number2<<endl;
         }
 
     }else{
-        cout << number1 << "<" <<number2;
+        cout << number1 << "<" <<number2<<endl;
     }
 
     /* 점수를 기반으로 학점 구하기
      *  : 여러 방향 조건 분기를 사용해서 학점을 구하는 프로그램*/
+
+    // 변수선언
+    int score_2;
+    char grade;
+
+    // 입력받기
+    cout << "0~100점 사이의 점수 입력 : ";
+    cin >> score_2;
+
+    //if else 조건문을 사용한 여러 방향 조건 분기
+    if(score_2 >=90){
+        grade = 'A';
+    }else if(score_2>=80){
+        grade = 'B';
+    }else if(score_2>=70){
+        grade = 'C';
+    }else if(score_2>=60){
+        grade = 'D';
+    }else{
+        grade = 'F';
+    }
+
+    //출력
+    cout <<"최종 학점 = "<<grade;
+
+    /*조건문
+     * ① if(조건문){실행문}
+     * ② if(조건문){
+     *       실행문
+     *    }else{
+     *       실행문 }
+     * ③ if(조건문){
+     *       실행문
+     *    }else if(조건문){
+     *        실행문  }
+     *
+     */
+
 
 
     return 0;
