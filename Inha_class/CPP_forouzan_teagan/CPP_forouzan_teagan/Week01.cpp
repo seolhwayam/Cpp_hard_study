@@ -27,7 +27,8 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 	*		  
 	* this >> 할당한 메모리 번지 주소 16진수로 볼 수 있음
 	*		  포인터
-	* mutable
+	* 
+	* mutable >> const로 선언된 멤버함수안에서 필드의 값을 수정할 수 있다. 
 	*/
 
 	//클래스의 정의
@@ -36,6 +37,7 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 		double mutable radius;
 	public:
 		Circle();
+		Circle(double r); //매개변수 생성자를 만들면 기본 생성자도 만들어야 한다.
 		double getRadius() const;
 		double getArea() const;
 		double getPerimeter() const;
@@ -43,8 +45,13 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 
 	};
 
+
 	Circle::Circle() {
-		cout <<this<< "객체 생서됨!";
+
+	}
+	Circle::Circle(double r) {
+		radius = r;
+		cout <<this<< "객체 생성됨!";
 	}
 
 	// 맴버 함수 정의
@@ -77,6 +84,12 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 		cout << "Radius: " << circle2.getRadius() << endl;
 		cout << "Area: " << circle2.getArea() << endl;
 		cout << "Perimeter:" << circle2.getPerimeter() << endl;
+
+		cout << "Circle 3:" << endl;
+		Circle circle3(5.0);
+		cout << "Radius: " << circle3.getRadius() << endl;
+		cout << "Area: " << circle3.getArea() << endl;
+		cout << "Perimeter:" << circle3.getPerimeter() << endl;
 
 		return 0;
 
