@@ -48,6 +48,7 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 
 	Circle::Circle() {
 
+
 	}
 	Circle::Circle(double r) {
 		radius = r;
