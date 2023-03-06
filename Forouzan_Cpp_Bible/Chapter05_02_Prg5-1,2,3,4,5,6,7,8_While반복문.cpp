@@ -3,20 +3,186 @@
 //
 
 #include <iostream>
+#include <iomanip>
+#include <fstream>
 using namespace std;
 
 int main(){
-    /*whileë°˜ë³µë¬¸ìœ¼ë¡œ íŠ¹ì • ìˆ˜ ë§Œí¼ ë°˜ë³µí•˜ê¸°1
-     *  : whileë°˜ë³µë¬¸ì„ ì‚¬ìš©í•´ì„œ ë©”ì‹œì§€ë¥¼ 10íšŒ ì¶œë ¥í•˜ê¸°*/
+    /*while¹İº¹¹®À¸·Î Æ¯Á¤ ¼ö ¸¸Å­ ¹İº¹ÇÏ±â1
+     *  : while¹İº¹¹®À» »ç¿ëÇØ¼­ ¸Ş½ÃÁö¸¦ 10È¸ Ãâ·ÂÇÏ±â*/
 
-    // ì¹´ìš´í„° ì„ ì–¸í•˜ê³  ì´ˆê¸°í™”
-    int counter =0;
+    cout << "Prg5-1 while¹İº¹¹®À¸·Î Æ¯Á¤ ¼ö ¸¸Å­ ¹İº¹ÇÏ±â1 "<<endl;
 
-    //whileë°˜ë³µë¬¸
-    while(counter<10){
+    // Ä«¿îÅÍ ¼±¾ğÇÏ°í ÃÊ±âÈ­
+    int counter_01 =0;
+
+    //while¹İº¹¹®
+    while(counter_01 < 10){
         cout <<"Hello world!"<<endl;
-        counter++;
+        counter_01++;
     }
+
+    /*while ¹İº¹¹®À¸·Î Æ¯Á¤ ¼ö¸¸Å­ ¹İº¹ÇÏ±â2
+     *  : Ä«¿îÅÍ Á¦¾î while ¹İº¹¹®À» »ç¿ëÇØ¼­ ÇĞ»ı Á¡¼öÀÇ Æò±ÕÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥*/
+
+    cout << "Prg5-2 while¹İº¹¹®À¸·Î Æ¯Á¤ ¼ö ¸¸Å­ ¹İº¹ÇÏ±â1 "<<endl;
+
+    // ¼±¾ğ
+    int score;
+    int sum = 0;
+    double average;
+
+    // ¹İº¹¹®
+    int counter_02 = 0;
+    while(counter_02<4){
+        //Ã³¸®(¼ıÀÚ¸¦ ÀĞ¾î µéÀÌ°í º¯¼ö sum¿¡ ´õÇÏ±â
+        cout << "Á¡¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä(0~100ÀÇ ¹üÀ§) : ";
+        cin >>score;
+        sum = sum+score;
+        counter_02++;
+    }
+
+    // °á°ú Ãâ·Â
+    average = static_cast<double>(sum)/4;
+    cout << fixed <<setprecision(2)<<showpoint;
+    cout << "Æò±Õ Á¡¼ö = "<<average<<endl;
+
+    /*Á¤¼ö 0~n-1±îÁö ¹İº¹¹®À¸·Î Ãâ·ÂÇÏ±â*/
+    cout << "Prg5-3 Á¤¼ö 0~n-1±îÁö ¹İº¹¹®À¸·Î Ãâ·ÂÇÏ±â "<<endl;
+
+    // ¼±¾ğ
+    int n,counter_03;
+
+    // º¯¼ö nÀÔ·Â¹Ş±â
+    cout << "Ãâ·ÂÇÒ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+    cin >> n;
+
+    // Á¤¼ö Ãâ·Â
+    counter_03 = 0;
+    while(counter_03 < n){
+        cout << counter_03 << endl;
+        counter_03++;
+    }
+
+    /*while ¹İº¹¹®À¸·Î ¼ö¿­ÀÇ ÇÕ ±¸ÇÏ±â*/
+
+    cout << "Prg5-4 while ¹İº¹¹®À¸·Î ¼ö¿­ÀÇ ÇÕ ±¸ÇÏ±â "<<endl;
+
+    // ¼±¾ğÇÏ°í ÃÊ±âÈ­
+    int sum1 =0, sum2=0,sum3 =0;
+    int m;
+
+    // º¯¼ö m ÀÔ·Â¹Ş±â
+    cout << "mÀÇ°ª ÀÔ·Â : ";
+    cin >> m;
+
+    //while¹İº¹¹®
+    int counter_04 = 1;
+    while(counter_04<=m){
+        sum1 += counter_04;
+        sum2 += counter_04*counter_04;
+        sum3 += counter_04*counter_04*counter_04;
+        counter_04++; //Ä«¿îÅÍ º¯°æ
+    }
+    // °á°ú Ãâ·Â
+    cout << "mÀÇ °ª = "<<m<<endl;
+    cout << "sum1ÀÇ °ª : "<<sum1 <<endl;
+    cout << "sum2ÀÇ °ª : "<<sum2 <<endl;
+    cout << "sum3ÀÇ °ª : "<<sum3 <<endl;
+
+    /*¼¾Æ¼³Ú Á¦¾î ¹İº¹¹®À¸·Î ÀÔ·ÂÇÑ ¼ıÀÚÀÇ ÇÕ ±¸ÇÏ±â
+     *  : ¼¾Æ¼³Ú Á¦¾î while¹İº¹¹®À» »ç¿ëÇØ¼­ ¼ıÀÚµéÀÇ ÇÕ Ã£±â*/
+
+    cout << "Prg5-5 ¼¾Æ¼³Ú Á¦¾î ¹İº¹¹®À¸·Î ÀÔ·ÂÇÑ ¼ıÀÚÀÇ ÇÕ ±¸ÇÏ±â "<<endl;
+
+    // ¼±¾ğ
+    int sum_05 = 0;
+    int num_05;
+
+    // ÀÔ·Â¹Ş°í ¹İº¹¹® µ¹¸®±â
+    cout << "Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(Á¾·áÇÏ·Á¸é -1 ÀÔ·Â) : ";
+    cin >>num_05;
+    while (num_05 != -1){
+        sum_05 = sum_05 +num_05;
+
+        cout <<"Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(Á¾·áÇÏ·Á¸é -1 ÀÔ·Â) : ";
+        cin >>num_05;
+    }
+
+    // °á°ú Ãâ·Â
+    cout << "ÇÕ : "<<sum_05<<endl;
+
+    /*EOF Á¦¾î ¹İº¹¹®À¸·Î ¼ıÀÚÀÇ ÇÕ ±¸ÇÏ±â
+     *  : EOFÁ¦¾î While ¹İº¹¹®À» »ç¿ëÇØ Å°º¸µå·Î ÀÔ·ÂÇÑ ¼ıÀÚµéÀÇ ÇÕÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥*/
+    cout << "Prg5-6 EOF Á¦¾î ¹İº¹¹®À¸·Î ¼ıÀÚÀÇ ÇÕ ±¸ÇÏ±â "<<endl;
+
+    // ¼±¾ğ
+    int sum_06;
+    int num_06;
+
+    // ÃÊ±âÈ­ÇÏ°í ¹İº¹¹® µ¹¸®±â
+    cout << "Ã¹ ¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä(Á¾·áÇÏ·Á¸é EOF ÀÔ·Â) : ";
+    while(cin>>num_06){
+        sum_06=sum_06+num_06;
+        cout <<"´ÙÀ½ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+    }
+
+    // Ãâ·Â
+    cout << "ÇÕ"<< sum_06<< endl;
+
+    /*ÆÄÀÏÀÇ EOF¸¦ »ç¿ëÇÏ¿© ¼ıÀÚÀÇ ÇÕ ±¸ÇÏ±â
+     *  : EOFÁ¦¾î while ¹İº¹¹®À» »ç¿ëÇØ¼­ ÆÄÀÏ¿¡ ÀúÀåµÈ ¼ıÀÚµéÀÇ ÇÕÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥*/
+
+    cout << "Prg5-7 ÆÄÀÏÀÇ EOF¸¦ »ç¿ëÇÏ¿© ¼ıÀÚÀÇ ÇÕ ±¸ÇÏ±â "<<endl;
+
+    //¼±¾ğ
+    int sum_07 =0;
+    int num_07;
+    ifstream infile;
+
+    //ÆÄÀÏ¿­±â
+    infile.open("numbers.dat");
+
+    //while ¹İº¹¹®
+    while(infile>>num_07){
+        sum_07=sum_07+num_07;
+    }
+
+    //°á°ú Ãâ·Â
+    cout <<"ÇÕ = "<<sum_07<<endl;
+    infile.close();
+
+    /*ÇÃ·¡±× »ç¿ëÇÏ±â
+     *  : EOF¿Í ÇÃ·¡±×¸¦ »ç¿ëÇØ¼­ ¹İº¹¹® Á¾·áÇÏ±â*/
+
+    // ¼±¾ğ
+    ifstream infile_08;
+    int num_08;
+    bool flag;
+
+    // ÆÄÀÏ¿­±â
+    infile_08.open("number.dat");
+
+    // 150ÀÌ»óÀÇ ¼ıÀÚ¸¦ Ã£±â À§ÇÑ ¹İº¹¹®
+    flag =false;
+    while(infile_08>>num_08&& !flag){
+        if(num_08>=150){
+            cout <<"Ã£´Â ¼ıÀÚ = "<<num_08;
+            flag = true;
+        }
+    }
+
+    //ÇÃ·¡±× È®ÀÎ
+    if(!flag){
+        cout <<"Ã£´Â ¼ıÀÚ°¡ ÆÄÀÏ¿¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù."<<endl;
+    }
+    infile_08.close();
+
+
+
+
+
+
 
     return 0;
 }
