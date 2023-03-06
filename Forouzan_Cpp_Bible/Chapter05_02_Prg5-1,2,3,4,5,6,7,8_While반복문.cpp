@@ -178,6 +178,11 @@ int main(){
     }
     infile_08.close();
 
+    /*while반복문
+     * ① while(조건문){
+     *        문장   }
+     *        */
+
 
 
 
