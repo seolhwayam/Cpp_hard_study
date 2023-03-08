@@ -55,6 +55,44 @@ int main(){
 
     cout << "Prg5-11 한 달을 달력 형태로 출력하기"<<endl;
 
+    // 선언과 초기화
+    int startDay;
+    int daysInMonth;
+    int col_11 = 1;
+
+    // 한 달의 날짜 유효성 검사
+    do{
+        cout << "한 달의 날짜 수를 입력하세요(28,29,30,31) : ";
+        cin >> daysInMonth;
+    } while (daysInMonth<28||daysInMonth>31);
+
+
+    do{
+        cout<< "첫 날의 요일을 입력하세요(0~6) : ";
+        cin >>startDay;
+    } while (startDay<0||startDay>6);
+
+    // 제목 출력
+    cout << endl;
+    cout << "Sun Mon Tue Wed Thr Fri Sat"<<endl;
+    cout <<"--- --- --- --- --- --- ---"<<endl;
+
+    // 달력 앞쪽 여백 출력
+    for(int space=0; space<startDay; space++){
+        cout <<"   ";
+        col_11++;
+    }
+
+    // 달력 출력
+    for(int day=1; day<=daysInMonth; day++){
+        cout << setw(3)<<day<<" ";
+        col_11++;
+        if(col_11>7){
+            cout <<endl;
+            col_11=1;
+        }
+    }
+
 
 
     return 0;
