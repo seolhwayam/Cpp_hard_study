@@ -31,70 +31,70 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 	* mutable >> const로 선언된 멤버함수안에서 필드의 값을 수정할 수 있다. 
 	*/
 
-	//클래스의 정의
-	class Circle {
-	private:
-		double mutable radius;
-	public:
-		Circle();
-		Circle(double r); //매개변수 생성자를 만들면 기본 생성자도 만들어야 한다.
-		double getRadius() const;
-		double getArea() const;
-		double getPerimeter() const;
-		void setRadius(double value);
+	////클래스의 정의
+	//class Circle {
+	//private:
+	//	double mutable radius;
+	//public:
+	//	Circle();
+	//	Circle(double r); //매개변수 생성자를 만들면 기본 생성자도 만들어야 한다.
+	//	double getRadius() const;
+	//	double getArea() const;
+	//	double getPerimeter() const;
+	//	void setRadius(double value);
 
-	};
-
-
-	Circle::Circle() {
+	//};
 
 
-	}
-	Circle::Circle(double r) {
-		radius = r;
-		cout <<this<< "객체 생성됨!";
-	}
+	//Circle::Circle() {
 
-	// 맴버 함수 정의
-	double Circle::getRadius() const {
-		return radius;
-	}
 
-	double Circle::getArea() const {
-		const double PI = 3.14;
-		return(PI * radius*radius);
-	}
-	double Circle::getPerimeter() const {
-		const double PI = 3.14;
-		return(2 * PI * radius);
-	}
-	void Circle::setRadius(double value) {
-		radius = value;
-	}
-	int main() {
-		cout << "Circle 1:" << endl;
-		Circle circle1;
-		circle1.setRadius(10.00);
-		cout << "Radius: " << circle1.getRadius() << endl;
-		cout << "Area: " << circle1.getArea() << endl;
-		cout << "Perimeter:" << circle1.getPerimeter() << endl;
+	//}
+	//Circle::Circle(double r) {
+	//	radius = r;
+	//	cout <<this<< "객체 생성됨!";
+	//}
 
-		cout << "Circle 2:" << endl;
-		Circle circle2;
-		circle1.setRadius(20.00);
-		cout << "Radius: " << circle2.getRadius() << endl;
-		cout << "Area: " << circle2.getArea() << endl;
-		cout << "Perimeter:" << circle2.getPerimeter() << endl;
+	//// 맴버 함수 정의
+	//double Circle::getRadius() const {
+	//	return radius;
+	//}
 
-		cout << "Circle 3:" << endl;
-		Circle circle3(5.0);
-		cout << "Radius: " << circle3.getRadius() << endl;
-		cout << "Area: " << circle3.getArea() << endl;
-		cout << "Perimeter:" << circle3.getPerimeter() << endl;
+	//double Circle::getArea() const {
+	//	const double PI = 3.14;
+	//	return(PI * radius*radius);
+	//}
+	//double Circle::getPerimeter() const {
+	//	const double PI = 3.14;
+	//	return(2 * PI * radius);
+	//}
+	//void Circle::setRadius(double value) {
+	//	radius = value;
+	//}
+	//int main() {
+	//	cout << "Circle 1:" << endl;
+	//	Circle circle1;
+	//	circle1.setRadius(10.00);
+	//	cout << "Radius: " << circle1.getRadius() << endl;
+	//	cout << "Area: " << circle1.getArea() << endl;
+	//	cout << "Perimeter:" << circle1.getPerimeter() << endl;
 
-		return 0;
+	//	cout << "Circle 2:" << endl;
+	//	Circle circle2;
+	//	circle1.setRadius(20.00);
+	//	cout << "Radius: " << circle2.getRadius() << endl;
+	//	cout << "Area: " << circle2.getArea() << endl;
+	//	cout << "Perimeter:" << circle2.getPerimeter() << endl;
 
-	}
+	//	cout << "Circle 3:" << endl;
+	//	Circle circle3(5.0);
+	//	cout << "Radius: " << circle3.getRadius() << endl;
+	//	cout << "Area: " << circle3.getArea() << endl;
+	//	cout << "Perimeter:" << circle3.getPerimeter() << endl;
 
-	
+	//	return 0;
+
+	//}
+
+	//
 
