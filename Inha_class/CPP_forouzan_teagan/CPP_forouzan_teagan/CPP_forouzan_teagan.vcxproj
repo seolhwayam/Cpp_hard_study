@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="oop2_Week02.cpp" />
     <ClCompile Include="oop2_Week02_01.cpp" />
+    <ClCompile Include="oop2_Week02_02.cpp" />
     <ClCompile Include="Week01.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

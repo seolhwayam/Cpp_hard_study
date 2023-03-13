@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std; //JAVA의 패키지와 같음(폴더)
+//using namespace std; //JAVA의 패키지와 같음(폴더)
 
 
 	//week01 
@@ -24,11 +24,13 @@ using namespace std; //JAVA의 패키지와 같음(폴더)
 	* 
 	* const ⓛ 변수 앞에 붙으면 : 상수처럼 동작
 	*		② 변수 뒤에 붙으면 : 값이 바뀔 일이 없다는 것을 보증
+	*		③ 
+	* 
+	* mutable >> const로 선언된 멤버함수안에서 필드의 값을 수정할 수 있다. 
 	*		  
 	* this >> 할당한 메모리 번지 주소 16진수로 볼 수 있음
 	*		  포인터
 	* 
-	* mutable >> const로 선언된 멤버함수안에서 필드의 값을 수정할 수 있다. 
 	*/
 
 	////클래스의 정의
