@@ -1,5 +1,1 @@
-﻿  oop2_Week02.cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week02.cpp(7,7): error C2440: '=': 'const double *'에서 'double *'(으)로 변환할 수 없습니다.
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week02.cpp(7,7): message : 변환하면서 한정자가 손실됩니다.
-  Week01.cpp
-  코드를 생성하고 있습니다...
+﻿  CPP_forouzan_teagan.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe

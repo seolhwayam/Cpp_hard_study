@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="oo2_Week02_03.cpp" />
     <ClCompile Include="oop2_Week02.cpp" />
     <ClCompile Include="oop2_Week02_01.cpp" />
     <ClCompile Include="oop2_Week02_02.cpp" />
