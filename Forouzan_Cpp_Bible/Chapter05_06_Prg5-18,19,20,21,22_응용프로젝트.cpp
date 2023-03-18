@@ -13,6 +13,8 @@ int main(){
     cout << "Prg5-18 소수인지 확인하는 프로그램"<<endl;
 
     // 선언
+    int num;
+
 
 
     return 0;

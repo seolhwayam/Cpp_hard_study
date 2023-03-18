@@ -1,1 +1,5 @@
-﻿  CPP_forouzan_teagan.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe
+﻿  oop2_Week03.cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week03.cpp(59,10): error C2084: 'Circle::Circle(void)' 함수에 이미 본문이 있습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week03.cpp(51,10): message : '{ctor}'의 이전 정의를 참조하십시오.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week03.cpp(81,10): error C2264: 'Circle::Circle': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week03.cpp(88,10): error C2264: 'Circle::Circle': 함수 정의 또는 선언에 오류가 있습니다. 함수가 호출되지 않습니다.

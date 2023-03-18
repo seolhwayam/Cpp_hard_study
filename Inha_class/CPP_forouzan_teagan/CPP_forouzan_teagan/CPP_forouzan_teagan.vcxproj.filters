@@ -27,7 +27,13 @@
     <ClCompile Include="oop2_Week02_02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oo2_Week02_03.cpp">
+    <ClCompile Include="oop2_Week02_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week03_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
