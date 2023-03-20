@@ -56,14 +56,21 @@ int main() {
 	arr_3[2] = &c;
 	arr_3[3] = &d;
 
-	// 주소 출력
+	// 주소 출력[참조용 배열의 a의 주소,b의 주소 : 연속된 값이 아님]
 	cout << arr_3[1] << endl;
 	cout << arr_3[2] << endl;
 	cout << arr_3[3] << endl;
+
+
+	// 주소 출력 [&포인터 배열 >> 값의 주소 : 연속된 공간에 들어있는 포인터 배열] 
+	cout << &arr_3[1] << endl;
+	cout << &arr_3[2] << endl;
+	cout << &arr_3[3] << endl;
+
+	// 값 출력 [*포인터 배열 >> 값 ] 
 	cout << *arr_3[1] << endl;
 	cout << *arr_3[2] << endl;
 	cout << *arr_3[3] << endl;
-	
 
 
 

@@ -133,7 +133,7 @@
     <ClCompile Include="oop2_Week02_02.cpp" />
     <ClCompile Include="oop2_Week03.cpp" />
     <ClCompile Include="oop2_Week03_01%28구조체 배열%29.cpp" />
-    <ClCompile Include="oop2_Week03_01(포인터간의 덧셈,뺄셈).cpp" />
+    <ClCompile Include="oop2_Week03_01%28포인터 배열%29.cpp" />
     <ClCompile Include="Week01.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
