@@ -30,10 +30,13 @@
     <ClCompile Include="oop2_Week02_03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oop2_Week03_01.cpp">
+    <ClCompile Include="oop2_Week03_01%28구조체 배열%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="oop2_Week03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week03_01(포인터간의 덧셈,뺄셈).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
