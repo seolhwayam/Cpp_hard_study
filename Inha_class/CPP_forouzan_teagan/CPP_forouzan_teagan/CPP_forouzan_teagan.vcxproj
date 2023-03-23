@@ -135,7 +135,8 @@
     <ClCompile Include="oop2_Week03_02%28구조체 배열%29.cpp" />
     <ClCompile Include="oop2_Week03_01%28포인터 배열%29.cpp" />
     <ClCompile Include="oop2_Week03_02%28구조체 배열2_포인터 출력%29cpp.cpp" />
-    <ClCompile Include="oop2_Week03_03(구).cpp" />
+    <ClCompile Include="oop2_Week03_03%28공용체%28Union%29%29.cpp" />
+    <ClCompile Include="opp2_Week04_01(열거체).cpp" />
     <ClCompile Include="Week01.cpp" />
     <ClCompile Include="oop2_Week03_02%28구조체와 포인터%29.cpp" />
   </ItemGroup>
