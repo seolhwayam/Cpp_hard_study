@@ -1,2 +1,3 @@
-﻿  opp2_Week04_01(열거체).cpp
+﻿  oop2_Week04_01(열거체2).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week04_01(열거체2).cpp(12,8): warning C4101: 'c2' :참조되지 않은 지역 변수입니다.
   CPP_forouzan_teagan.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe
