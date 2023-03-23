@@ -42,5 +42,11 @@
     <ClCompile Include="oop2_Week03_02%28구조체와 포인터%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week03_02%28구조체 배열2_포인터 출력%29cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week03_03(구).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
