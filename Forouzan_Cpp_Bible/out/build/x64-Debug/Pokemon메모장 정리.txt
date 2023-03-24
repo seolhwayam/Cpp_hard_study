@@ -1,0 +1,125 @@
+
+1. StartSettings 
+◆ MyPokemon Class
+1) MyPokemon ( MyPoName, MyPoPower, MyPoSpeed, exp) : 필드 설정
+
+2) MyPokemon get,set : 게터,세터 
+
+3) pokemonList , pokemon_level2, pokemon_level3 (ArrayList 생성) 
+
+4) [static void] Pokemon_setting() 
+   pokemonList 파이리,꼬부기,이상해씨 (리스트 추가)
+     pokemonList_level2 리자드, 어니부기, 이상해풀 (리스트 추가)
+     pokemonList_level3 리자몽, 거북왕, 이상해꽃 (리스트 추가)
+
+5) [void] startPokemon : 처음 포켓몬 선택 후 오박사 스크립트
+     Pokemon_settings() : 객체생성
+     setMyPoName() | setMyPoPower() | setMyPoSpeed() : 선택한 포켓몬 설정값으로 셋팅
+     오박사 스크립트(여행 배웅 멘트)
+
+6) [static void] attack : 공격 멘트 및 공격번호 선택(☆ 포켓몬 진화별 공격 : 경험치로 구분)
+   경험치에 따른 포켓몬 리스트 선택 >> pokemonList, pokemonList_level2,  pokemonList_level3
+  +사용자 선택 공격번호 = 내용만 출력
+
+◆ StartSettings Class
+1) owner, choice : 주인이름 및 포켓몬 선택번호
+    public void setChoice(int choice) {
+        this.choice = choice - 1;
+    } :  PokemonChoice에서 초기포켓몬 선택 번호(-1 번호임)
+
+2) [void] Opacksa : 오박사 스크립트 (이름 묻기 스크립트)
+    주인 이름 묻기
+    주인 이름 저장
+
+3) [void] PokemonChoice : 오박사 초기포켓몬 선택 스크립트
+    초기 포켓몬 안내멘트
+    setChoice(choice) : 초기포켓몬 선택
+
+-----------------------------------------------------------
+2. Menu (연관 클래스 : 3. Adventure)
+★ Menu Class
+1) Adventure 객체 생성
+2) List<String> showMenu 생성
+    1.  showMenu.add("★ 모험하기 ☆");
+   2. showMenu.add("★ 체육관 도전 ☆");
+   3. showMenu.add("★ 체육관 배찌 확인 ☆");
+   4. showMenu.add("★ 종료하기(단, 세이브 안됨) ☆");   
+
+3) While문 > "종료하기" 선택시 반복 종료
+    - menu | continue
+   => menu
+      모험하기 >> 몇 번 여행을 떠날까요?
+         체육관 도전 : 준비중
+         체육관 배찌 확인 : 준비중
+         종료하기 : While문 탈출 종료
+
+     => continue : 준비중
+
+---------------------------------------------------------------
+3. Adventure
+★ Adventure Class
+1) wildPokemon : 야생포켓몬 이름 배열
+   wildPokemonSkill : 야생포켓몬 스킬 배열
+   RanNum : 랜덤 숫자
+   RanNum set
+
+2) [void] WildPoAppear : 야생포켓몬 출연 스크립트 및 선택지 제시
+     야생포켓몬 나타났다! 스크립트
+     선택지( 싸운다 / 도망친다 / 포켓몬 도감)
+     선택지에 따른 if문(fight | Run )
+
+3) [void] fight
+   RanSkill : 범위내 랜덤 숫자로 인한 야생포켓몬 스킬 셋팅
+     wildPower : 범위내 랜덤 숫자로 인한 야생포켓몬 힘 셋팅
+     if문
+     힘 비교 => 승리 => 경험치 상승  =>[일정경험치 도달시 Evolution_level2, Evolution_level3 실행]
+                               =>[변화 없음]
+
+          => 패배[변화없음]
+
+4) [void] Run
+   wildSpeed : 범위내 랜덤 숫자로 인한 야생포켓몬 속도 셋팅
+    if문
+    속도 비교 => 성공
+                 => 실패 => fight
+
+5) Evolution_level2 : 진화 ver1
+   진화 멘트
+     setMyPoNmae , setMyPoPower , setPoSpeed 진화1 설정값으로 셋팅
+
+6) Evolution_level3 : 진화 ver2
+   진화 멘트
+     setMyPoNmae , setMyPoPower , setPoSpeed 진화2 설정값으로 셋팅
+---------------------------------------------------------------  
+4. Pokemon(추상)
+★ abstract Pokemon Class
+name, power, speed  : 필드 설정
+List<String> skills : 스킬 
+abstract public void attack() : 추상메소드 설정
+get, set 셋팅
+
+--------------------------------------------------------------
+5. Pairi, Ggobugi, lsanghaeSeed
+★Pairi, Ggobugi, lsanghaeSeed Class extends Pokemon
+1) 상속 받기
+2)skills = new ArrayList<>();    : 각 포켓몬 별 스킬 설정(진화별)
+         skills.add("불꽃 세계");
+          skills.add("할퀴기");
+
+  attack 오버라이드 : 스킬 멘트 스크립트
+    스킬 선택 스크립트
+    스킬 선택
+
+★진화1 extends Pairi, Ggobugi, lsanghaeSeed
+  attack 오버라이드 : 스킬 멘트 스크립트
+    스킬 선택 스크립트
+    스킬 선택
+
+★진화2 extends 진화1
+  attack 오버라이드 : 스킬 멘트 스크립트
+    스킬 선택 스크립트
+    스킬 선택
+
+
+
+   
