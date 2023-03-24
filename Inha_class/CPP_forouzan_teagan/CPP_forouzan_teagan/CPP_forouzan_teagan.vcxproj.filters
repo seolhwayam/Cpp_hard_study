@@ -54,7 +54,10 @@
     <ClCompile Include="oop2_Week04_01(열거체2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oop2_Week04_02(열거체 오류).cpp">
+    <ClCompile Include="oop2_Week04_02%28열거체 오류해결%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week04_02(레퍼런스).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
