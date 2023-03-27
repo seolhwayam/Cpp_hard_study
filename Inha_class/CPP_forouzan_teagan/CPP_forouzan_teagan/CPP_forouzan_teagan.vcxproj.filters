@@ -60,7 +60,10 @@
     <ClCompile Include="oop2_Week04_02(레퍼런스).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oop2_Week04_03(함수).cpp">
+    <ClCompile Include="oop2_Week04_03%28함수&amp;함수포인터%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -8,9 +8,9 @@
 ////enum{JOB_NECROMANCER, JOB_BARBARIAN, JOB_WIZARD }; 
 ////           0              1             2
 ///*열거체 생성 
-//  : ① enum{         }
+//  : ① enum 열거형이름{         }
 //    ② 수치의 의미도 가진다
-//	③ 타이브로도 사용가능
+//	  ③ 타입으로도 사용가능
 //	if (c.jobType == 2) {
 //		cout << "비전격류!" << endl;
 //	} => JOB_WIZARD일 경우 if문 조건 충족
