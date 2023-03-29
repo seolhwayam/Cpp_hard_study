@@ -17,8 +17,14 @@ int main() {
 	[] {cout << "Hi Lambda!" << endl; }();
 
 	
-	auto inha = [] {cout << "Hi Lambda!" << endl; };
-	inha();
+	auto inha_1 = [] {cout << "Hi Lambda!" << endl; }; //안쪽에 cout 객체가 있어서 바로inha_1(); 로 출력가능
+	inha_1();
+
+	auto inha_2 = []() {return 5 + 10; };//안쪽에 cout 객체가 없어서 바로inha_1(); 로 출력불가능
+	cout << inha_2() << endl; // cout inha_2 필요
+
+	auto inha_3 = [](int a, int b) {return a + b; };
+	cout << inha_3(5, 10) << endl;
 
 
 
