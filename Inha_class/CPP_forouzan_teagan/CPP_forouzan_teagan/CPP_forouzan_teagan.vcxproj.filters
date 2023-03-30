@@ -72,5 +72,8 @@
     <ClCompile Include="oop2_Week05_02(람다2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week05_02(람다3).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
