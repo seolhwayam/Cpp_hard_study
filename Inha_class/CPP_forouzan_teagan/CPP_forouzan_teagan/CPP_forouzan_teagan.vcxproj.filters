@@ -66,7 +66,10 @@
     <ClCompile Include="oop2_Week04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oop2_Week05_01(람다).cpp">
+    <ClCompile Include="oop2_Week05_01%28람다1%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week05_02(람다2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
