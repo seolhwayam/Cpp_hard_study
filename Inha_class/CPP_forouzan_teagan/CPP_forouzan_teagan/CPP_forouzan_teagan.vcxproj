@@ -141,6 +141,8 @@
     <ClCompile Include="oop2_Week04_02%28열거체 오류해결%29.cpp" />
     <ClCompile Include="oop2_Week04_02(레퍼런스).cpp" />
     <ClCompile Include="oop2_Week04_03%28함수&amp;함수포인터%29.cpp" />
+    <ClCompile Include="oop2_Week05(2).cpp" />
+    <ClCompile Include="oop2_Week05.cpp" />
     <ClCompile Include="oop2_Week05_01%28람다1%29.cpp" />
     <ClCompile Include="oop2_Week05_02(람다2).cpp" />
     <ClCompile Include="oop2_Week05_02(람다3).cpp" />
