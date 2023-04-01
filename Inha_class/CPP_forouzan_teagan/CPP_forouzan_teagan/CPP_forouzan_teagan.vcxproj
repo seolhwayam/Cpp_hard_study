@@ -144,6 +144,7 @@
     <ClCompile Include="oop2_Week05_01%28람다1%29.cpp" />
     <ClCompile Include="oop2_Week05_02(람다2).cpp" />
     <ClCompile Include="oop2_Week05_02(람다3).cpp" />
+    <ClCompile Include="oop2_Week05_03(동적메모리 할당).cpp" />
     <ClCompile Include="opp2_Week04_01(열거체).cpp" />
     <ClCompile Include="Week01.cpp" />
     <ClCompile Include="oop2_Week03_02%28구조체와 포인터%29.cpp" />
