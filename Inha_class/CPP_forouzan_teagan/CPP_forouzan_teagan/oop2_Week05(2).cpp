@@ -36,12 +36,19 @@
 		
 		//char* copy = reverString(&origianl[0], 4); 
 		char* copy = reverstring(original, 4); //배열의 주소를 받음
-		cout << copy << endl;
+		cout << copy << endl; //*copy 주소로 받음 그래서 copy가 원래 주소가 나와야한다. 
+							  // cout null 문자열 앞까지 찍도록 설계 되어있어서 문자가 나옴(이미 설계되어 있기 때문에) 
 
 		delete[] copy;
+		// delete[] copy; double free error 2번하면 안됨
+
 		copy = nullptr;
 
 
 
 		return 0;
+
+		//힙은 메모리 할당 >> 델리트 하기전까지 공간을 계속 써먹을 수 있다.
+		// 동적할당하는 공간을 받을 포인터만 있으면 계속 써먹을 수 있다.
+		// 
 	}

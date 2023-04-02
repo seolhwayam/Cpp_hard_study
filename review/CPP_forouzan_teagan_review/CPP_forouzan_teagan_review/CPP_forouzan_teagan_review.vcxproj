@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69ea15a9-b283-4657-8f8e-28325579453a}</ProjectGuid>
-    <RootNamespace>CPPforouzanteagan</RootNamespace>
+    <ProjectGuid>{2a71e7bd-171c-42f8-81cd-32a475d4bf98}</ProjectGuid>
+    <RootNamespace>CPPforouzanteaganreview</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,29 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="oop2_Week02_03.cpp" />
-    <ClCompile Include="oop2_Week02.cpp" />
-    <ClCompile Include="oop2_Week02_01.cpp" />
-    <ClCompile Include="oop2_Week02_02.cpp" />
-    <ClCompile Include="oop2_Week03.cpp" />
-    <ClCompile Include="oop2_Week03_02%28구조체 배열%29.cpp" />
-    <ClCompile Include="oop2_Week03_01%28포인터 배열%29.cpp" />
-    <ClCompile Include="oop2_Week03_02%28구조체 배열2_포인터 출력%29cpp.cpp" />
-    <ClCompile Include="oop2_Week03_03%28공용체%28Union%29%29.cpp" />
-    <ClCompile Include="oop2_Week04.cpp" />
-    <ClCompile Include="oop2_Week04_01(열거체2).cpp" />
-    <ClCompile Include="oop2_Week04_02%28열거체 오류해결%29.cpp" />
-    <ClCompile Include="oop2_Week04_02(레퍼런스).cpp" />
-    <ClCompile Include="oop2_Week04_03%28함수&amp;함수포인터%29.cpp" />
-    <ClCompile Include="oop2_Week05(2).cpp" />
-    <ClCompile Include="oop2_Week05%281%29.cpp" />
-    <ClCompile Include="oop2_Week05_01%28람다1%29.cpp" />
-    <ClCompile Include="oop2_Week05_02(람다2).cpp" />
-    <ClCompile Include="oop2_Week05_02(람다3).cpp" />
-    <ClCompile Include="oop2_Week05_03(동적메모리 할당).cpp" />
-    <ClCompile Include="opp2_Week04_01(열거체).cpp" />
-    <ClCompile Include="Week01.cpp" />
-    <ClCompile Include="oop2_Week03_02%28구조체와 포인터%29.cpp" />
+    <ClCompile Include="cpp_Week02_01%28복습%29.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
