@@ -1,5 +1,2 @@
-﻿  cpp_Week02_01(복습).cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\CPP_forouzan_teagan_review\CPP_forouzan_teagan_review\cpp_Week02_01(복습).cpp(16,13): warning C4309: '초기화 중': 상수 값이 잘립니다.
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\CPP_forouzan_teagan_review\CPP_forouzan_teagan_review\cpp_Week02_01(복습).cpp(29,27): warning C4305: '초기화 중': 'int'에서 'unsigned short'(으)로 잘립니다.
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\CPP_forouzan_teagan_review\CPP_forouzan_teagan_review\cpp_Week02_01(복습).cpp(29,22): warning C4309: '초기화 중': 상수 값이 잘립니다.
+﻿  cpp_review_Week02_01(배열).cpp
   CPP_forouzan_teagan_review.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\CPP_forouzan_teagan_review\x64\Debug\CPP_forouzan_teagan_review.exe

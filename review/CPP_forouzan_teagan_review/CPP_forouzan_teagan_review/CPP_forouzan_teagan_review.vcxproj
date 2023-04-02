@@ -127,7 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpp_Week02_01%28복습%29.cpp" />
+    <ClCompile Include="cpp_review_Week02_01%28자료형%29.cpp" />
+    <ClCompile Include="cpp_review_Week02_01(배열).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
