@@ -84,5 +84,8 @@
     <ClCompile Include="oop2_Week05(2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week06_01(동적메모리 할당).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
