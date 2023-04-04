@@ -29,7 +29,7 @@
 //	// 문자열 배열 Inha +null 들어가 있음
 //	// orig[] = [ I , n , h , a , null(0) ]
 //
-//	char* copy = ReverseString(orig, 4); // 함수 호출
+//	char* copy = ReverseString(orig, 4); // 함수 호출(문자열 배열, 문자열 길이)
 //	cout << orig << "\n";
 //	cout << copy << "\n";
 //
