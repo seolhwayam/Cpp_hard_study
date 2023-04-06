@@ -150,6 +150,7 @@
     <ClCompile Include="oop2_Week06_01%28동적메모리 할당_문자열 길이,복사%29.cpp" />
     <ClCompile Include="oop2_Week06_01%28동적메모리 할당_문자열 뒤집기%29.cpp" />
     <ClCompile Include="oop2_Week06_02(문자열).cpp" />
+    <ClCompile Include="oop_Week06_03(Style).cpp" />
     <ClCompile Include="opp2_Week04_01(열거체).cpp" />
     <ClCompile Include="Week01.cpp" />
     <ClCompile Include="oop2_Week03_02%28구조체와 포인터%29.cpp" />
