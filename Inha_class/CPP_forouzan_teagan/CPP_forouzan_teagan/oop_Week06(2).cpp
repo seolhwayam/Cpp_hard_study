@@ -47,9 +47,16 @@ int main() {
 	평균을 구하는 프로그램을 작성하시오
 	*/
 
+	for (int k = 0; k < student; k++) {
+		cout << k + 1 << "번 학생 " << endl;
+		for (auto j = 0; j < student; j++) {
+			cout << j + 1 << "과목 성적 입력: " << endl;
+			cin >> Scores[k][j];
+		}
+	}
 
 	
-	for (int i = 0; i < student; i++) {
+	/*for (int i = 0; i < student; i++) {
 		cout << i + 1 << "번 학생" << endl;
 		for (auto j = 0; j < subject; j++) {
 			cout << j + 1 << "과목 성적 입력:" << endl;
@@ -65,9 +72,7 @@ int main() {
 
 		cout << i + 1 << "번 학생의 총점 :  " << total << endl;
 		cout << i + 1 << "번 학생의 평균 :  " << total/(double)subject << endl;
-	}
-
-
+	}*/
 
 
 	
