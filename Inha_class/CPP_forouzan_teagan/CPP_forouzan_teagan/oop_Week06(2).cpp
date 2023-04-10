@@ -47,11 +47,11 @@ int main() {
 	평균을 구하는 프로그램을 작성하시오
 	*/
 
-	for (int k = 0; k < student; k++) {
-		cout << k + 1 << "번 학생 " << endl;
-		for (auto j = 0; j < student; j++) {
-			cout << j + 1 << "과목 성적 입력: " << endl;
-			cin >> Scores[k][j];
+	for (int i = 0; i < student; i++) {
+		cout << i + 1 << "번 학생" << endl;
+		for (int k = 0; k < subject; k++) {
+			cout << k + 1 << "번 과목의 성적" << endl;
+			cin >> Scores[i][k];
 		}
 	}
 
@@ -85,6 +85,7 @@ int main() {
 	Scores = nullptr;
 	
 	// 삭제한거 또 삭제시 더블 프리!! (안된다!) double free bug
+	// 더블프리!!!주의!!!
 
 	return 0;
 }
