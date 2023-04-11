@@ -12,27 +12,35 @@ using namespace std;
 	  ③ 맴버변수를 정의할 수 있다.
 	  */
 
+ 
+//class Point {
+//public:
+//	int x, y;
+//
+//	void Print() {
+//		cout << x << "," << y << endl;
+//	}; // 객체이름 명시하고 써야됨
+//
+//	void Print(int a) {
+//		cout << a << ":" << x << "," << y << endl;
+//	};
+//};
+//
+//int main() {
+//	Point p1, p2; // 객체 생성
+//	p1.x = 10;    // 맴버변수 초기화
+//	p1.y = 10;
+//	p2.x = 20;
+//	p2.y = 20;
+//
+//	p1.Print(); //클래스 내 메서드 사용시 
+//	p2.Print(10);
+//
+//
+//
+//	return 0;
+//}
 
-class Point {
-public:
-	int x, y;
-
-	void Print() {
-		cout << x << "," << y << endl;
-	}
-};
-
-int main() {
-	Point p1, p2;
-	p1.x = 10;
-	p1.y = 10;
-	p2.x = 20;
-	p2.y = 20;
-
-	p1.Print();
-	p2.Print();
 
 
 
-	return 0;
-}
