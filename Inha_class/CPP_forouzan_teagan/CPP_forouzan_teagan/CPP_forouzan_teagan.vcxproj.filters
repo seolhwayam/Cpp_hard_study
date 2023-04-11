@@ -114,6 +114,9 @@
     <ClCompile Include="oop2_Week07_01(클래스의 함수 분리)cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week07%2801%28생성자%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oop2_Week06_03_ex1.h">
