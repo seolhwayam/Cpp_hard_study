@@ -157,13 +157,14 @@
     <ClCompile Include="oop2_Week07_01(클래스의 함수 분리)cpp.cpp" />
     <ClCompile Include="oop2_Week07_02(복사생성자).cpp" />
     <ClCompile Include="oop2_Week07_02(생성자2).cpp" />
-    <ClCompile Include="oop2_Week07_02(생성자3).cpp" />
+    <ClCompile Include="oop2_Week07_02%28소멸자%29.cpp" />
     <ClCompile Include="oop_Week06(2).cpp" />
     <ClCompile Include="oop_Week06_03%28Style 및 문자열%29.cpp" />
     <ClCompile Include="opp2_Week04_01(열거체).cpp" />
     <ClCompile Include="oop2_Week01.cpp" />
     <ClCompile Include="oop2_Week03_02%28구조체와 포인터%29.cpp" />
     <ClCompile Include="oop2_Week06_03_ex1.cpp" />
+    <ClCompile Include="oop2_Week07_03%28접근제어%29.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oop2_Week06_03_ex1.h" />

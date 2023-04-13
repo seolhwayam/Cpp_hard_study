@@ -123,7 +123,10 @@
     <ClCompile Include="oop2_Week07_02(생성자2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oop2_Week07_02(생성자3).cpp">
+    <ClCompile Include="oop2_Week07_02%28소멸자%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week07_03%28접근제어%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
