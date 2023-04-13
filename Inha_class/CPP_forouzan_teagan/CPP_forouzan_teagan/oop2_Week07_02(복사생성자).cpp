@@ -1,32 +1,67 @@
-//#include<iostream>
-//using namespace std;
-//
-//class point {
-//public:
-//	int x, y;
-//
-//	void print();
-//
-//};
-//
-//void point::print() { // 어느 클래스에 속한 메소드인지 
-//	cout << x << "," << y << endl;
-//}
-//
-///*1. 클래스 정의 안에는 메소드의 프로토타입만 남겨둔다.
-//  2. 클래스 정의 밖에서는 범위 지정 연산자를 사용해서 함수를 정의(void point::print())*/
-//
-//int main() {
-//	point p1, p2; // 객체 생성
-//	p1.x = 10;    // 맴버변수 초기화
-//	p1.y = 10;
-//	p2.x = 20;
-//	p2.y = 20;
-//
-//	p1.print(); //클래스 내 메서드 사용시 
-//	
-//
-//
-//
-//	return 0;
-//}
+#include<iostream>
+using namespace std;
+ 
+class Point {
+public:
+	int x, y;
+	Point(); 
+	Point(int _x, int _y); 
+	Point(const Point& pt);
+	/*복사 생성자
+	 : 자신과 동일한 타입의 객체에 대한 레퍼런스를 인자로 받는 생성자
+	 Point(Point& pt);
+	 
+	 포인트 클래스 타입을 &(레퍼런스 : 별명)
+	 
+	 레퍼런스 : 변수의 제2의 이름(변수와 같은 메모리 번지 참조)
+	 포인터 : 주소값을 받음(다른 메모리 번지 참조*/
+
+
+	void Print();
+	// 메서드
+
+};
+Point::Point() { 
+	x = 0;
+	y = 0;
+}
+Point::Point(int _x,int _y) { 
+	x = _x;
+	y = _y;
+}
+Point::Point(const Point& pt) {
+	cout << "Copy constructor!" << endl;
+	x = pt.x;
+	y = pt.y;
+}
+
+
+void Point::Print() {
+	cout << x << "," << y << endl;
+};
+
+int main() {
+	Point p1, p2 ,p4 ,p5(200,150); 
+	p1.x = 10; 
+	p1.y = 10;
+	p2.x = 20;
+	p2.y = 20;
+
+	Point p6(p1); // ① 복사생성사 생성
+
+	Point p3 = p2; // ②복사 생성자 생성
+	p3.Print();
+	p3 = p1; 
+	
+	p3.Print();
+	p4.Print();
+	p5.Print(); 
+
+	p1.Print(); 
+	
+	return 0;
+}
+
+
+
+
