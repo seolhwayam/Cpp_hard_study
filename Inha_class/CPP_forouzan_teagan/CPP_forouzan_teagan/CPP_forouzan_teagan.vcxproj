@@ -155,6 +155,7 @@
     <ClCompile Include="oop2_Week07%2801%28생성자%29.cpp" />
     <ClCompile Include="oop2_Week07_01(클래스와 객체).cpp" />
     <ClCompile Include="oop2_Week07_01(클래스의 함수 분리)cpp.cpp" />
+    <ClCompile Include="oop2_Week07_02(복사생성자).cpp" />
     <ClCompile Include="oop_Week06(2).cpp" />
     <ClCompile Include="oop_Week06_03%28Style 및 문자열%29.cpp" />
     <ClCompile Include="opp2_Week04_01(열거체).cpp" />
