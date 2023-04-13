@@ -129,9 +129,21 @@
     <ClCompile Include="oop2_Week07_03%28접근제어%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week07_03(정적 맴버).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week07_03(인라인).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week07_03(헤더파일 실행_인라인).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oop2_Week06_03_ex1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="oop2_Week07_03(인라인).h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
