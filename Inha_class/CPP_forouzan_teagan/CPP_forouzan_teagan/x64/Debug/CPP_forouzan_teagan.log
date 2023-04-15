@@ -1,4 +1,2 @@
-﻿  oop2_Week07_03(헤더파일 실행_인라인).cpp
-oop2_Week07_03(헤더파일 실행_인라인).obj : error LNK2005: main이(가) oop2_Week07_03(인라인).obj에 이미 정의되어 있습니다.
-oop2_Week07_03(헤더파일 실행_인라인).obj : error LNK2005: "public: static int Test::a" (?a@Test@@2HA)이(가) oop2_Week07_03(인라인).obj에 이미 정의되어 있습니다.
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+﻿  oop2_Week07_03(인라인).cpp
+  CPP_forouzan_teagan.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe

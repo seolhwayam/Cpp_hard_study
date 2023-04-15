@@ -138,6 +138,9 @@
     <ClCompile Include="oop2_Week07_03(헤더파일 실행_인라인).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week07.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oop2_Week06_03_ex1.h">
