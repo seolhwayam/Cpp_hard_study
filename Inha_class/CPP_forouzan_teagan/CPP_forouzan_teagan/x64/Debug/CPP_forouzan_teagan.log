@@ -1,2 +1,4 @@
-﻿  oop2_Week07_03(인라인).cpp
+﻿  oop2_Week07.cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week07.cpp(6,30): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week07.cpp(22,27): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CPP_forouzan_teagan.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe
