@@ -57,7 +57,7 @@ int main()
 	//cout << a << endl;
 
 	char a[20] = "inha";
-	char b[] = "ho";
+	char b[] = "world";
 
 
 	cout << myLen(a) << endl;
