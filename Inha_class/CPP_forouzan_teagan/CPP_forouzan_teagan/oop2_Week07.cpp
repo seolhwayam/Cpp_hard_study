@@ -26,7 +26,9 @@ char* mystrcat(char s1[],const char* s2) {
 		s1[i] = s2[k];
 		k++;
 	}
-	s1[i] = NULL; // c언언에서는 null c++에서는 0
+	s1[i] = NULL; // c언언에서는 null c++에서는 0 
+	              // 마지막에 null은 붙여야 에러 x
+
 
 
 
