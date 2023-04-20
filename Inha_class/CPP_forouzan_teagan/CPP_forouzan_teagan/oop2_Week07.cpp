@@ -3,7 +3,7 @@
  * 문자열 전체 또는 문자열 일부를                             *
  * 다른 문자열로 복사하는 프로그램                            *
  **************************************************************/
-#pragma warning(disable:4996);
+#pragma warning(disable:4996); // c언허 함수 에러 방지용
 #include <cstring> //c언어에서 사용하는 함수는 c가 붙는다.
 #include<string> // c++스타일
 #include <iostream>
