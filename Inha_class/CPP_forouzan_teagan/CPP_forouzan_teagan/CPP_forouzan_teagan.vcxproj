@@ -162,6 +162,7 @@
     <ClCompile Include="oop2_Week07_03(인라인).cpp" />
     <ClCompile Include="oop2_Week07_03(정적 맴버).cpp" />
     <ClCompile Include="oop2_Week07_03(헤더파일 실행_인라인).cpp" />
+    <ClCompile Include="oop2_Week09cpp.cpp" />
     <ClCompile Include="oop_Week06(2).cpp" />
     <ClCompile Include="oop_Week06_03%28Style 및 문자열%29.cpp" />
     <ClCompile Include="opp2_Week04_01(열거체).cpp" />
