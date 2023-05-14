@@ -1,6 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Inha_class",
+    "\\Inha_class\\CPP_forouzan_teagan",
+    "\\Inha_class\\CPP_forouzan_teagan\\CPP_forouzan_teagan",
+    "\\review",
+    "\\review\\CPP_forouzan_teagan_review",
+    "\\review\\CPP_forouzan_teagan_review\\CPP_forouzan_teagan_review",
+    "\\review\\CPP_forouzan_teagan_review\\CPP_forouzan_teagan_review\\Debug",
+    "\\review\\CPP_forouzan_teagan_review\\CPP_forouzan_teagan_review\\Debug\\CPP_foro.2a71e7bd.tlog",
+    "\\review\\CPP_forouzan_teagan_review\\CPP_forouzan_teagan_review\\x64",
+    "\\review\\CPP_forouzan_teagan_review\\Debug"
   ],
+  "SelectedNode": "\\review\\CPP_forouzan_teagan_review\\Debug\\CPP_forouzan_teagan_review.pdb",
   "PreviewInSolutionExplorer": false
 }

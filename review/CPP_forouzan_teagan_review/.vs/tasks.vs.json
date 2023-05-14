@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-소스1",
+      "appliesTo": "CPP_forouzan_teagan_review/소스1.cpp",
+      "type": "launch"
+    }
+  ]
+}
