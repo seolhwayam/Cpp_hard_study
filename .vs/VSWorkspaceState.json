@@ -1,8 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Inha_class",
-    "\\Inha_class\\CPP_forouzan_teagan",
     "\\Inha_class\\CPP_forouzan_teagan\\CPP_forouzan_teagan",
     "\\review",
     "\\review\\CPP_forouzan_teagan_review",
@@ -12,6 +10,6 @@
     "\\review\\CPP_forouzan_teagan_review\\CPP_forouzan_teagan_review\\x64",
     "\\review\\CPP_forouzan_teagan_review\\Debug"
   ],
-  "SelectedNode": "\\review\\CPP_forouzan_teagan_review\\Debug\\CPP_forouzan_teagan_review.pdb",
+  "SelectedNode": "\\review\\CPP_forouzan_teagan_review",
   "PreviewInSolutionExplorer": false
 }
