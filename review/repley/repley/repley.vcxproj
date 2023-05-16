@@ -128,7 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="replay_Week02_02(void pointer).cpp" />
-    <ClCompile Include="replay_Week02_03.cpp" />
+    <ClCompile Include="replay_Week02_03%28범위기반 for문%29.cpp" />
+    <ClCompile Include="replay_Week02_03(구조체).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
