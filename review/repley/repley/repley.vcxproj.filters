@@ -24,5 +24,8 @@
     <ClCompile Include="replay_Week02_03(구조체).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="relpay_Week02_03(바이너리 리터럴).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
