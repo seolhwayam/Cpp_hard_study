@@ -27,7 +27,10 @@
     <ClCompile Include="relpay_Week02_03%28binary literals%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week03_01.cpp">
+    <ClCompile Include="replay_Week03_01%28pointer의 덧셈,뺄셈%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week03_01(배열 포인터).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
