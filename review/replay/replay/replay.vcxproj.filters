@@ -48,5 +48,8 @@
     <ClCompile Include="replay_Week03_02(구조체 배열).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="replay_Week03_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
