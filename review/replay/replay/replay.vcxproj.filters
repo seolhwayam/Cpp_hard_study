@@ -48,7 +48,10 @@
     <ClCompile Include="replay_Week03_02(구조체 배열).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week03_02.cpp">
+    <ClCompile Include="replay_Week03_02%28구초제 포인터%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week03_02(linked list).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
