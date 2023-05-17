@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="repaly_Week03_01(포인터 배열).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="replay_Week02_03(범위기반 for문).cpp" />
     <ClCompile Include="replay_Week03_01(pointer의 덧셈,뺄셈).cpp" />
     <ClCompile Include="replay_Week03_01(배열 포인터).cpp" />
+    <ClCompile Include="replay_Week03_02(구조체 배열).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

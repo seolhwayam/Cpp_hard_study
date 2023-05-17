@@ -42,5 +42,11 @@
     <ClCompile Include="replay_Week03_01(배열 포인터).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="repaly_Week03_01(포인터 배열).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week03_02(구조체 배열).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
