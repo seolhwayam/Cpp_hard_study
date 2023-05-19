@@ -1,2 +1,4 @@
-﻿  repaly_Week03_02(linked list).cpp
+﻿  repaly_Week03_03(공용체UNION).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week03_03(공용체UNION).cpp(23,19): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week03_03(공용체UNION).cpp(26,19): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe

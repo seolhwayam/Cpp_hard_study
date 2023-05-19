@@ -141,6 +141,12 @@
     <ClCompile Include="oop2_Week07.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week09cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week12_01(연산자 오버로딩).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oop2_Week06_03_ex1.h">
