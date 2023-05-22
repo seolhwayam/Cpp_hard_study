@@ -38,18 +38,23 @@ int main() {
 
 	char s1[] = "hello"; // 자동으로 마지막에 null문자 삽입
 	char s2[] = { 'h','e','l','l','o','\n'}; // 수기로 null(\n, 0도가능) 넣어 줘야됨. 출력 시점에 null을 감지하지 못해 에러남
-	void* ps2;
-
+	void* ps2 = &s1;
+	char* pss2 = s1;
 	//ps2 = &s2[0];
 	//ps2 = &s2;
 	/*배열[0] 과 배열은 포인터 변수에 담길 떄 똑같은 의미를 갖는다.*/
 		
-    ps2 = &s1;
+   
 
-	cout << *(char*)ps2 << endl; // char 타입포인터를 나타내는 거라고 등록(캐스팅) [ 한 글자만 출력 ] //H
-	
+	cout << *(char*)ps2 << "캐스팅 보이드"<<endl; // char 타입포인터를 나타내는 거라고 등록(캐스팅) [ 한 글자만 출력 ] //H
+ 
 	//①
-	cout << (char*)ps2 << endl;
+	cout << (char*)ps2 << "타입지정 보이드" << endl;
+
+	cout << *pss2 << "고냥 포인터 배열" << endl;
+
+	cout << pss2 << endl;
+
 	//②
 	cout << s1 << endl;
 
@@ -57,7 +62,7 @@ int main() {
 
 	for (int i = 0; i < sizeof(s1); i++) {
 		//cout << *(char*)ps2 + i; // i = int타입/ ps2 = char타입(캐스팅 했음) => int와char간의 다시 캐스팅이 일어나 원하는 값 x
-		cout << (char*)ps2 + i; //HELLO
+		cout << *((char*)ps2 + i); //HELLO
 	}
 
 	for (auto i = 0; i < sizeof(s1); i++) { //HELLO
