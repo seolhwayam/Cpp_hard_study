@@ -130,6 +130,7 @@
     <ClCompile Include="repaly_Week03_01(포인터 배열).cpp" />
     <ClCompile Include="repaly_Week03_03%28linked list%29.cpp" />
     <ClCompile Include="repaly_Week03_03(공용체UNION).cpp" />
+    <ClCompile Include="repaly_Week04_01(열거체).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />

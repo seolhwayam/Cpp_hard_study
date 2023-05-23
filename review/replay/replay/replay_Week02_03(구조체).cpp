@@ -17,11 +17,13 @@
 //
 //int main() {
 //	// ① 일반적인 구조체 변수 생성 및 초기화
-//	StudentInfo s1 = { 20201234,3.5f,'o' };
+//	//StudentInfo s1 = { 20201234,3.5f,'o' };
 //	StudentInfo s2 = { 20201235,3.7f,'A' };
 //
+//	StudentInfo s1[2] = { {2020,3.5f,'h'},{2020,5.5f,'j'} };
+//
 //	cout << s2.grade << endl;
-//	cout << s1.id << endl;
+//	cout << s1[1].id << endl;
 //	cout << s3.bloodType << endl;
 //
 //	s4.bloodType = 'B'; //③ 구조체 변수 초기화
@@ -38,4 +40,4 @@
 //	
 //	return 0;
 //}
-
+//

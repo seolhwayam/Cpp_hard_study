@@ -14,10 +14,15 @@
 //	cout << (*pr).y << " " << pr->y << endl;
 //	//(*pr).y =  pr->y  [화살표 연산자]
 //	cout << (*pr).h << " " << pr->h << endl;
-//	pr->h = 40; //화살표 연산자를 통한 값 변경
 //	cout << (*pr).h << " " << pr->h << endl;
 //
+//	pr->h = 40; //화살표 연산자를 통한 값 변경
 //	(*pr).w = 100;
+//	r.x = 80;
+//
+//	cout << r.h << endl;
+//	cout << r.w << endl;
+//	cout << r.x << endl;
 //	cout << r.w << " " << pr->w << endl;
 //
 //	/* 출력하는 다양한 방법

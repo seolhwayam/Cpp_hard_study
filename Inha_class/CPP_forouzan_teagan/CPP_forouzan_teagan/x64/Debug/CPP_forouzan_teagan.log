@@ -1,2 +1,11 @@
-﻿  oop2_Week12_01(연산자 오버로딩).cpp
-  CPP_forouzan_teagan.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\x64\Debug\CPP_forouzan_teagan.exe
+﻿  oop2_Week13_01(templates).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week13_01(templates).cpp(26,13): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week13_01(templates).cpp(29,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week13_01(templates).cpp(15,20): error C2440: 'return': 'T'에서 'int &'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=short
+          ]
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week13_01(templates).cpp(14,1): message : 클래스 템플릿 멤버 함수 'int &AutoArray<short>::operator [](int)'을(를) 컴파일하는 중입니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week13_01(templates).cpp(29,10): message : 컴파일되는 함수 템플릿 인스턴스화 'int &AutoArray<short>::operator [](int)'에 대한 참조를 확인하세요.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\Inha_class\CPP_forouzan_teagan\CPP_forouzan_teagan\oop2_Week13_01(templates).cpp(28,24): message : 컴파일되는 클래스 템플릿 인스턴스화 'AutoArray<short>'에 대한 참조를 확인하세요.
