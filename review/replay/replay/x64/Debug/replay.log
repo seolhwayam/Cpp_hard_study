@@ -1,2 +1,5 @@
 ﻿  repaly_Week04_01(열거체).cpp
+  repaly_Week04_01(열거체2).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week04_01(열거체2).cpp(9,8): warning C4101: 'c2' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe
