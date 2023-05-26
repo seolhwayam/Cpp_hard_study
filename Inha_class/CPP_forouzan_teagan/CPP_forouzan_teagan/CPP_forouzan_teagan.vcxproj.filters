@@ -165,7 +165,10 @@
     <ClCompile Include="oop2_Week13_02(STL).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="oop2_Week13_02(배열).cpp">
+    <ClCompile Include="oop2_Week13_02%28sort함수%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2_Week13_03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
