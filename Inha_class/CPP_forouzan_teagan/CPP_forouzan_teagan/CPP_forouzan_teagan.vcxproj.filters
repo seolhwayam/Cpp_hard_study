@@ -165,6 +165,9 @@
     <ClCompile Include="oop2_Week13_02(STL).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="oop2_Week13_02(배열).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oop2_Week06_03_ex1.h">
