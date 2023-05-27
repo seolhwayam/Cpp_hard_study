@@ -1,3 +1,2 @@
-﻿  repaly_Week06_01(동적메모리 할당2).cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week06_01(동적메모리 할당2).cpp(28,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  repaly_Week06_02(문자열).cpp
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe
