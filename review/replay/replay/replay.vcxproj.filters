@@ -84,7 +84,10 @@
     <ClCompile Include="repaly_Week05_02(람다2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week05_02(람다3).cpp">
+    <ClCompile Include="replay_Week05_02%28람다3_람다 총정리%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week05_03(동적 메모리 할당).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

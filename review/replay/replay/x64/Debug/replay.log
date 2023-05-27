@@ -1,4 +1,2 @@
-﻿  replay_Week05_02(람다3).cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\replay_Week05_02(람다3).cpp(2,9): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\replay_Week05_02(람다3).cpp(108,19): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+﻿  replay_Week05_03(동적 메모리 할당).cpp
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe
