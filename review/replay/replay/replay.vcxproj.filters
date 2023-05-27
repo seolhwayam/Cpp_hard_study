@@ -72,7 +72,10 @@
     <ClCompile Include="replay_Week04_02(레퍼런스2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week04_03(함수).cpp">
+    <ClCompile Include="replay_Week04_03%28함수_팩토리얼,프로토 타입%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week04_03(포인터 함수).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
