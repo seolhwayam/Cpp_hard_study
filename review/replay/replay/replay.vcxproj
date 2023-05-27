@@ -144,6 +144,7 @@
     <ClCompile Include="replay_Week03_01(배열 포인터).cpp" />
     <ClCompile Include="replay_Week03_02(구조체 배열).cpp" />
     <ClCompile Include="replay_Week03_02%28구초제 포인터%29.cpp" />
+    <ClCompile Include="replay_Week04_02(레퍼런스).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
