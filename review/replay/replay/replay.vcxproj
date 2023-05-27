@@ -136,6 +136,8 @@
     <ClCompile Include="repaly_Week04_03(포인터 함수).cpp" />
     <ClCompile Include="repaly_Week05_01(람다).cpp" />
     <ClCompile Include="repaly_Week05_02(람다2).cpp" />
+    <ClCompile Include="repaly_Week06_01%28동적 메모리 할당2%29.cpp" />
+    <ClCompile Include="repaly_Week06_01(동적메모리 할당2).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
