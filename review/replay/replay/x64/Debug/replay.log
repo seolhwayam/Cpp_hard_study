@@ -1,3 +1,5 @@
-﻿  repaly_Week05_01(람다).cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week05_01(람다).cpp(55,65): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  repaly_Week05_02(람다2).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week05_02(람다2).cpp(54,20): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week05_02(람다2).cpp(63,20): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week05_02(람다2).cpp(69,20): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe
