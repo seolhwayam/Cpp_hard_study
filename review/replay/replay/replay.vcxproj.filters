@@ -72,5 +72,8 @@
     <ClCompile Include="replay_Week04_02(레퍼런스2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="replay_Week04_03(함수).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
