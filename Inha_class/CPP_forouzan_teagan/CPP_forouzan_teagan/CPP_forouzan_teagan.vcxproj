@@ -171,7 +171,6 @@
     <ClCompile Include="oop2_Week13_01(템플릿 함수).cpp" />
     <ClCompile Include="oop2_Week13_02(STL).cpp" />
     <ClCompile Include="oop2_Week13_02%28STL-sort%29.cpp" />
-    <ClCompile Include="oop2_Week13_03(입출력).cpp" />
     <ClCompile Include="oop_Week06(2).cpp" />
     <ClCompile Include="oop_Week06_03%28Style 및 문자열%29.cpp" />
     <ClCompile Include="opp2_Week04_01(열거체).cpp" />
