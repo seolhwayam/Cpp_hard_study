@@ -102,7 +102,10 @@
     <ClCompile Include="repaly_Week06_02(문자열_c언어).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week06_03(문자열).cpp">
+    <ClCompile Include="repaly_Week06_03%28문자열 스타일 변경%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week06_03(문자열 입력받기).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
