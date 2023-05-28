@@ -161,6 +161,7 @@
     <ClCompile Include="replay_Week04_03%28함수_팩토리얼,프로토 타입%29.cpp" />
     <ClCompile Include="replay_Week05_02%28람다3_람다 총정리%29.cpp" />
     <ClCompile Include="replay_Week05_03(동적 메모리 할당).cpp" />
+    <ClCompile Include="replay_Week07_02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex1(repaly_Week06_03(분리).h" />

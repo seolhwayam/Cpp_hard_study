@@ -117,6 +117,9 @@
     <ClCompile Include="repaly_Week07_01%28클래스와 객체%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="replay_Week07_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex1(repaly_Week06_03(분리).h">
