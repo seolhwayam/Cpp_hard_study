@@ -150,7 +150,8 @@
     <ClCompile Include="repaly_Week07_02%28소멸자_클래스와생성자 최종정리%29.cpp" />
     <ClCompile Include="repaly_Week07_03(접근제어).cpp" />
     <ClCompile Include="repaly_Week07_03%28인라인%29.cpp" />
-    <ClCompile Include="repaly_Week09_01(const).cpp" />
+    <ClCompile Include="repaly_Week09_01,02%28const,함수포인터%29.cpp" />
+    <ClCompile Include="repaly_Week09_02%28객체배열%29.cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />

@@ -135,10 +135,13 @@
     <ClCompile Include="repaly_Week07_03%28인라인%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week09_01(const).cpp">
+    <ClCompile Include="repaly_Week09_01,02%28const,함수포인터%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="point(repaly_Week09_01(const).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week09_02%28객체배열%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
