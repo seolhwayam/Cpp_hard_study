@@ -146,7 +146,8 @@
     <ClCompile Include="repaly_Week06_03(분리).cpp" />
     <ClCompile Include="repaly_Week07_01%28클래스와 객체%29.cpp" />
     <ClCompile Include="repaly_Week07_02%28생성자와 초기화 리스트%29.cpp" />
-    <ClCompile Include="repaly_Week07_02(소멸자).cpp" />
+    <ClCompile Include="repaly_Week07_02%28소멸자%29.cpp" />
+    <ClCompile Include="repaly_Week07_03(접근제어).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
@@ -164,6 +165,7 @@
     <ClCompile Include="replay_Week05_02%28람다3_람다 총정리%29.cpp" />
     <ClCompile Include="replay_Week05_03(동적 메모리 할당).cpp" />
     <ClCompile Include="replay_Week07_02.cpp" />
+    <ClCompile Include="replay_Week07_03(정적맴버).cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex1(repaly_Week06_03(분리).h" />
