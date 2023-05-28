@@ -108,5 +108,16 @@
     <ClCompile Include="repaly_Week06_03(문자열 입력받기).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="repaly_Week06_03(분리).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex1(repaly_Week06_03(분리).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ex1(repaly_Week06_03(분리).h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
