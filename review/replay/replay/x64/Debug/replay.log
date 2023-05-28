@@ -1,2 +1,3 @@
-﻿  replay_Week07_03(정적맴버).cpp
+﻿  repaly_Week09_01(const).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week09_01(const).cpp(33,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe

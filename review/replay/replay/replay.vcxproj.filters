@@ -117,13 +117,13 @@
     <ClCompile Include="repaly_Week07_01%28클래스와 객체%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week07_02.cpp">
+    <ClCompile Include="replay_Week07_02%28복사생성자%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="repaly_Week07_02%28생성자와 초기화 리스트%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week07_02%28소멸자%29.cpp">
+    <ClCompile Include="repaly_Week07_02%28소멸자_클래스와생성자 최종정리%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="repaly_Week07_03(접근제어).cpp">
@@ -132,9 +132,21 @@
     <ClCompile Include="replay_Week07_03(정적맴버).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="repaly_Week07_03%28인라인%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week09_01(const).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="point(repaly_Week09_01(const).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex1(repaly_Week06_03(분리).h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="point(repaly_Week09_01(const).h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
