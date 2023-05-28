@@ -21,10 +21,17 @@
 //
 //   ※ 해제 여러번 할 경우 메모리 문제 생김
 //
+//
+//
+// C언어 문자열
+// 1. Char
+// 2. strlen(문자 타입 변수) : 문자열 길이 구하는 함수
+// 3. strcpy(복사할 곳 변수, 복사할 원본 변수) : 문자열 복사하는 함수
+//
 //*/
 //
 //int main() {
-//	char src[] = "Inha Univ";
+//	char src[] = "inha univ";
 //	int len = strlen(src); //strlen : 문자열의 길이 구하는 함수
 //
 //	cout << len << endl;

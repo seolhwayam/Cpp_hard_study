@@ -93,10 +93,16 @@
     <ClCompile Include="repaly_Week06_01%28동적 메모리 할당2%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week06_01%28동적메모리 할당3%29.cpp">
+    <ClCompile Include="repaly_Week06_01%28동적메모리 할당3, c언어 문자열%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week06_02%28문자열%29.cpp">
+    <ClCompile Include="repaly_Week06_02%28문자열_c++%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week06_02(문자열_c언어).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week06_03(문자열).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
