@@ -144,6 +144,7 @@
     <ClCompile Include="repaly_Week06_03%28문자열 스타일 변경%29.cpp" />
     <ClCompile Include="repaly_Week06_03(문자열 입력받기).cpp" />
     <ClCompile Include="repaly_Week06_03(분리).cpp" />
+    <ClCompile Include="repaly_Week07_01%28클래스와 객체%29.cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
