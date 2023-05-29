@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="docwriter(replay_Week09_03).cpp" />
     <ClCompile Include="ex1(repaly_Week06_03(분리).cpp" />
+    <ClCompile Include="htmlWriter(repaly_Week09_03).cpp" />
     <ClCompile Include="point(repaly_Week09_01(const).cpp" />
     <ClCompile Include="repaly_Week03_01(포인터 배열).cpp" />
     <ClCompile Include="repaly_Week03_03%28linked list%29.cpp" />
@@ -153,6 +154,8 @@
     <ClCompile Include="repaly_Week07_03%28인라인%29.cpp" />
     <ClCompile Include="repaly_Week09_01,02%28const,함수포인터%29.cpp" />
     <ClCompile Include="repaly_Week09_02%28객체배열,객체 동적할당%29.cpp" />
+    <ClCompile Include="repaly_Week10_01(클래스간의 형변화).cpp" />
+    <ClCompile Include="repaly_Week10_02(다중상속).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
@@ -171,11 +174,12 @@
     <ClCompile Include="replay_Week05_03(동적 메모리 할당).cpp" />
     <ClCompile Include="replay_Week07_02%28복사생성자%29.cpp" />
     <ClCompile Include="replay_Week07_03(정적맴버).cpp" />
-    <ClCompile Include="replay_Week09_03(상속).cpp" />
+    <ClCompile Include="replay_Week09,10_03,01%28상속,객체간 대입, UP cast, Down cast%29.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="docwriter(replay_Week09_03).h" />
     <ClInclude Include="ex1(repaly_Week06_03(분리).h" />
+    <ClInclude Include="htmlwirter(repaly_Week09_03).h" />
     <ClInclude Include="point(repaly_Week09_01(const).h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
