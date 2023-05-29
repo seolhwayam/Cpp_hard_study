@@ -1,3 +1,7 @@
-﻿  repaly_Week09_02(객체배열).cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week09_02(객체배열).cpp(11,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  docwriter(replay_Week09_03).cpp
+  point(repaly_Week09_01(const).cpp
+  repaly_Week09_02(객체배열,객체 동적할당).cpp
+  replay_Week09_03(상속).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\replay_Week09_03(상속).cpp(5,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  코드를 생성하고 있습니다...
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe

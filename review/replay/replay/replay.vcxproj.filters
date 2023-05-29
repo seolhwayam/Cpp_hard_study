@@ -141,7 +141,13 @@
     <ClCompile Include="point(repaly_Week09_01(const).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week09_02%28객체배열%29.cpp">
+    <ClCompile Include="repaly_Week09_02%28객체배열,객체 동적할당%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week09_03(상속).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="docwriter(replay_Week09_03).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -150,6 +156,9 @@
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="point(repaly_Week09_01(const).h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="docwriter(replay_Week09_03).h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
