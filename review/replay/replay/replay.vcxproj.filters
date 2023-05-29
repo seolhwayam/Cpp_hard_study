@@ -159,6 +159,9 @@
     <ClCompile Include="repaly_Week10_02(다중상속).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="replay_Week10_02().cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ex1(repaly_Week06_03(분리).h">
