@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Chapter09_03_Prg9-8(배열과 포인터).exe" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Forouzan_Cpp_Bible/Chapter02_01.cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Forouzan_Cpp_Bible/Chapter02_02_Prg2-3.cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Forouzan_Cpp_Bible/Chapter02_04_Prg2-11_불 자료형 결과 확인하기.cpp" charset="x-windows-949" />
@@ -48,6 +49,7 @@
     <file url="file://$PROJECT_DIR$/Forouzan_Cpp_Bible/Chapter09_01_Prg9-2(참조로 전달).cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Forouzan_Cpp_Bible/Chapter09_03_Prg9-8(배열과 포인터).cpp" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/Forouzan_Cpp_Bible/pointer.cpp" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/pointer.exe" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/review/CPP_forouzan_teagan_review/CPP_forouzan_teagan_review/cpp_review_Week02_01(배열).cpp" charset="x-windows-949" />
   </component>
 </project>
