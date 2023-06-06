@@ -192,7 +192,10 @@
     <ClCompile Include="replay_Week12_02%28연산자 오버로딩2%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week12_02(연산자 오버로딩3).cpp">
+    <ClCompile Include="replay_Week12_02%28const_cast%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week12_02(dynamic_cast).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
