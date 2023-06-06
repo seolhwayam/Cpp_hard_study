@@ -157,6 +157,9 @@
     <ClCompile Include="repaly_Week10_01(클래스간의 형변화).cpp" />
     <ClCompile Include="repaly_Week10_02(다중상속).cpp" />
     <ClCompile Include="repaly_Week10_03(예외처리).cpp" />
+    <ClCompile Include="repaly_Week11_01(예외객체).cpp" />
+    <ClCompile Include="repaly_Week11_01(예외객체2).cpp" />
+    <ClCompile Include="repaly_Week11_02(예외객체2).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
@@ -182,6 +185,7 @@
     <ClInclude Include="docwriter(replay_Week09_03).h" />
     <ClInclude Include="ex1(repaly_Week06_03(분리).h" />
     <ClInclude Include="htmlwirter(repaly_Week09_03).h" />
+    <ClInclude Include="myexception(repaly_Week11_01).h" />
     <ClInclude Include="point(repaly_Week09_01(const).h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

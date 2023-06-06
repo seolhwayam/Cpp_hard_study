@@ -159,7 +159,19 @@
     <ClCompile Include="repaly_Week10_02(다중상속).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="replay_Week10_02().cpp">
+    <ClCompile Include="repaly_Week10_03(예외처리).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week10_02,03%28가상함수%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week11_01(예외객체).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week11_01(예외객체2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week11_02(예외객체2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -174,6 +186,9 @@
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="htmlwirter(repaly_Week09_03).h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="myexception(repaly_Week11_01).h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
