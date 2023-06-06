@@ -180,10 +180,13 @@
     <ClCompile Include="repaly_Week11_02(unique_ptr).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week11_03(변수와 함수의 존속기간).cpp">
+    <ClCompile Include="repaly_Week11_03%28변수와 함수의 존속기간,스코프%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="replay_Week11_03(2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="repaly_Week11_03(연산자 오버로딩).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -162,7 +162,8 @@
     <ClCompile Include="repaly_Week11_02%28예외객체3%29.cpp" />
     <ClCompile Include="repaly_Week11_02(unique_ptr).cpp" />
     <ClCompile Include="repaly_Week11_02(예외객체4).cpp" />
-    <ClCompile Include="repaly_Week11_03(변수와 함수의 존속기간).cpp" />
+    <ClCompile Include="repaly_Week11_03%28변수와 함수의 존속기간,스코프%29.cpp" />
+    <ClCompile Include="repaly_Week11_03(연산자 오버로딩).cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
