@@ -195,7 +195,13 @@
     <ClCompile Include="replay_Week12_02%28const_cast%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="repaly_Week12_02(dynamic_cast).cpp">
+    <ClCompile Include="repaly_Week12_02%28dynamic_cast,cast총정리%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week12_02(클래스간 형변환).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="replay_Week12_03(namespace).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

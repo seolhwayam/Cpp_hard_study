@@ -1,3 +1,4 @@
-﻿  repaly_Week12_02(dynamic_cast).cpp
-C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\repaly_Week12_02(dynamic_cast).cpp(43,19): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+﻿  replay_Week12_03(namespace).cpp
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\replay_Week12_03(namespace).cpp(43,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\replay\replay_Week12_03(namespace).cpp(44,8): warning C4101: 'grade' :참조되지 않은 지역 변수입니다.
   replay.vcxproj -> C:\Users\rudnf\OneDrive\바탕 화면\Cpp_hard_study\review\replay\x64\Debug\replay.exe

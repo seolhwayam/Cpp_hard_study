@@ -163,7 +163,7 @@
     <ClCompile Include="repaly_Week11_02(unique_ptr).cpp" />
     <ClCompile Include="repaly_Week11_02(예외객체4).cpp" />
     <ClCompile Include="repaly_Week11_03%28변수와 함수의 존속기간,스코프%29.cpp" />
-    <ClCompile Include="repaly_Week12_02(dynamic_cast).cpp" />
+    <ClCompile Include="repaly_Week12_02%28dynamic_cast,cast총정리%29.cpp" />
     <ClCompile Include="replay_Week02_01(데이터 타입).cpp" />
     <ClCompile Include="replay_Week02_01(배열).cpp" />
     <ClCompile Include="replay_Week02_01%28포인터 배열%29.cpp" />
@@ -188,6 +188,8 @@
     <ClCompile Include="replay_Week12_01(연산자 오버로딩).cpp" />
     <ClCompile Include="replay_Week12_02%28연산자 오버로딩2%29.cpp" />
     <ClCompile Include="replay_Week12_02%28const_cast%29.cpp" />
+    <ClCompile Include="replay_Week12_02(클래스간 형변환).cpp" />
+    <ClCompile Include="replay_Week12_03(namespace).cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="docwriter(replay_Week09_03).h" />
